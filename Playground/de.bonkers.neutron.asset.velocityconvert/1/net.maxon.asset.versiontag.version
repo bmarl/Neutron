@@ -1,0 +1,7 @@
+﻿{
+	"identification": "net.maxon.asset.metadata",
+	"content": {
+		"dataType": "net.maxon.interface.string-C",
+		"content": "1.0"
+	}
+}

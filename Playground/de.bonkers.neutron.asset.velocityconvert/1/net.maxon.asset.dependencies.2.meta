@@ -1,0 +1,57 @@
+﻿{
+	"identification": "net.maxon.asset.metadata",
+	"content": {
+		"dataType": "net.maxon.datatype.asset.dependencystruct",
+		"isArray": true,
+		"content": [
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.group",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Group",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.type",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Value",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.arithmetic",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Arithmetic",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.normalize",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Normalize",
+				"updatePolicy": 2
+			}
+		]
+	}
+}

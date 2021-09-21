@@ -1,0 +1,122 @@
+﻿{
+	"identification": "net.maxon.asset.metadata",
+	"content": {
+		"dataType": "net.maxon.interface.datadictionary-C",
+		"content": {
+			"referenceDataType": "net.maxon.interface.datadictionary-C",
+			"_impl": {
+				"_mode": 2,
+				"_data": [
+					{
+						"dataType": "net.maxon.datatype.internedid",
+						"content": "net.maxon.description.base.dbversion"
+					},
+					{
+						"dataType": "int64",
+						"content": 6
+					},
+					{
+						"dataType": "net.maxon.interface.cstring-C",
+						"content": ""
+					},
+					{
+						"dataType": "<net.maxon.interface.datadescriptiondefinition>C",
+						"content": {
+							"referenceClassType": "net.maxon.class.datadescriptiondefinition",
+							"_info": {},
+							"_description": [
+								{
+									"referenceDataType": "net.maxon.interface.datadictionary-C",
+									"_impl": {
+										"_mode": 1,
+										"_keyType": "net.maxon.datatype.internedid",
+										"_fastData": [
+											"net.maxon.description.base.command",
+											{
+												"dataType": "net.maxon.datatype.id",
+												"content": "exportedstring"
+											},
+											"net.maxon.description.base.identifier",
+											{
+												"dataType": "net.maxon.datatype.internedid",
+												"content": "net.maxon.object.base.name"
+											},
+											"net.maxon.description.string.base.translatedstring",
+											{
+												"dataType": "net.maxon.interface.string-C",
+												"content": "Velocity Convert"
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					{
+						"dataType": "net.maxon.interface.cstring-C",
+						"content": "<inport@EVzaLG4xLBon8hwYEEcIj7"
+					},
+					{
+						"dataType": "net.maxon.interface.datadictionary-C",
+						"content": {
+							"referenceDataType": "net.maxon.interface.datadictionary-C",
+							"_impl": {
+								"_mode": 1,
+								"_keyType": "net.maxon.datatype.internedid",
+								"_fastData": [
+									"net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Direction"
+									}
+								]
+							}
+						}
+					},
+					{
+						"dataType": "net.maxon.interface.cstring-C",
+						"content": "<inport@ewmAIpqTFBFs6Sg1udYn78"
+					},
+					{
+						"dataType": "net.maxon.interface.datadictionary-C",
+						"content": {
+							"referenceDataType": "net.maxon.interface.datadictionary-C",
+							"_impl": {
+								"_mode": 1,
+								"_keyType": "net.maxon.datatype.internedid",
+								"_fastData": [
+									"net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Speed"
+									}
+								]
+							}
+						}
+					},
+					{
+						"dataType": "net.maxon.interface.cstring-C",
+						"content": ">outport@eRNuXPtwLVYjDmK4_Hnp07"
+					},
+					{
+						"dataType": "net.maxon.interface.datadictionary-C",
+						"content": {
+							"referenceDataType": "net.maxon.interface.datadictionary-C",
+							"_impl": {
+								"_mode": 1,
+								"_keyType": "net.maxon.datatype.internedid",
+								"_fastData": [
+									"net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Velocity"
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,81 @@
+﻿{
+	"identification": "net.maxon.asset.metadata",
+	"content": {
+		"dataType": "net.maxon.datatype.asset.dependencystruct",
+		"isArray": true,
+		"content": [
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.group",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Group",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.noise",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Sample Noise",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.maprange",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Range Mapper",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.pattern.node.conversion.composevector3",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Compose Vector3D",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.switch",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Switch",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.arithmetic",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Arithmetic",
+				"updatePolicy": 2
+			}
+		]
+	}
+}

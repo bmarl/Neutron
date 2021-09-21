@@ -1,0 +1,3570 @@
+﻿{
+	"identification": "net.maxon.fileformat.c4dnodes",
+	"content": {
+		"referenceClassType": "net.maxon.node.class.nodesystemdata",
+		"version": 17,
+		"dbversion": 6,
+		"nodesystem": {
+			"children": [
+				"<",
+				{
+					"children": [
+						"inport@FV$G72ifG1TohuIYuP5224",
+						{
+							"targets": [
+								"arithmetic@MYNgvRutHdwk8tVmUfD$Q7<in1",
+								1052688,
+								"arithmetic@dt4_cYzxM1WiB8v9NvTIp$<in1",
+								1052688,
+								"noise@RVwJ9nnLJFXjzhMDljAo06<seed",
+								1052688
+							],
+							"flags": 1,
+							"attribs": [
+								"fixedtype",
+								{
+									"dataType": "net.maxon.datatype.datatype",
+									"content": "int64"
+								},
+								"net.maxon.node.attribute.orderindex",
+								{
+									"dataType": "int64",
+									"content": 6000
+								},
+								"net.maxon.node.ionodes",
+								{
+									"dataType": "(net.maxon.datatype.internedid,int64)",
+									"isArray": true,
+									"content": [
+										{
+											"_0": "in",
+											"_1": -9223372036854775808
+										}
+									]
+								},
+								"portDescriptionData",
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.description.data.base.datatype",
+												{
+													"dataType": "net.maxon.datatype.id",
+													"content": "int"
+												},
+												"net.maxon.node.attribute.hideportinnodegraph",
+												{
+													"dataType": "bool",
+													"content": true
+												}
+											]
+										}
+									}
+								},
+								"portDescriptionStringLazy",
+								{
+									"dataType": "<net.maxon.interface.lazylanguagedictionary>C",
+									"content": {
+										"referenceClassType": "net.maxon.class.lazylanguagedictionary"
+									}
+								}
+							]
+						},
+						"inport@HaO0rCjnFNGus1QlilwNr4",
+						{
+							"targets": [
+								"noise@QOErmy3uPpUjxcaXA1AUB9<twod",
+								1052688,
+								"noise@RVwJ9nnLJFXjzhMDljAo06<twod",
+								1052688,
+								"noise@al4kn8TxPdsts1hOk63cO7<twod",
+								1052688
+							],
+							"flags": 1,
+							"attribs": [
+								"net.maxon.node.attribute.orderindex",
+								{
+									"dataType": "int64",
+									"content": 3000
+								},
+								"net.maxon.node.ionodes",
+								{
+									"dataType": "(net.maxon.datatype.internedid,int64)",
+									"isArray": true,
+									"content": [
+										{
+											"_0": "in",
+											"_1": -9223372036854775808
+										}
+									]
+								},
+								"portDescriptionData",
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.node.attribute.hideportinnodegraph",
+												{
+													"dataType": "bool",
+													"content": true
+												}
+											]
+										}
+									}
+								},
+								"portDescriptionStringLazy",
+								{
+									"dataType": "<net.maxon.interface.lazylanguagedictionary>C",
+									"content": {
+										"referenceClassType": "net.maxon.class.lazylanguagedictionary"
+									}
+								}
+							]
+						},
+						"inport@Is7dYJY$EVMjWF3hhX8SL8",
+						{
+							"targets": [
+								"noise@QOErmy3uPpUjxcaXA1AUB9<scale",
+								1052688,
+								"noise@RVwJ9nnLJFXjzhMDljAo06<scale",
+								1052688,
+								"noise@al4kn8TxPdsts1hOk63cO7<scale",
+								1052688
+							],
+							"flags": 1,
+							"attribs": [
+								"net.maxon.node.attribute.orderindex",
+								{
+									"dataType": "int64",
+									"content": 2000
+								},
+								"net.maxon.node.ionodes",
+								{
+									"dataType": "(net.maxon.datatype.internedid,int64)",
+									"isArray": true,
+									"content": [
+										{
+											"_0": "in",
+											"_1": -9223372036854775808
+										}
+									]
+								},
+								"portDescriptionData",
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.description.data.base.limitvalue",
+												{
+													"dataType": "net.maxon.datatype.id",
+													"content": "none"
+												},
+												"net.maxon.description.data.base.unit",
+												{
+													"dataType": "net.maxon.datatype.id",
+													"content": "percent"
+												},
+												"net.maxon.node.attribute.hideportinnodegraph",
+												{
+													"dataType": "bool",
+													"content": true
+												}
+											]
+										}
+									}
+								},
+								"portDescriptionStringLazy",
+								{
+									"dataType": "<net.maxon.interface.lazylanguagedictionary>C",
+									"content": {
+										"referenceClassType": "net.maxon.class.lazylanguagedictionary"
+									}
+								}
+							]
+						},
+						"inport@Jb8qDM5eCp$hgLjCG2PGP6",
+						{
+							"targets": [
+								"noise@QOErmy3uPpUjxcaXA1AUB9<octaves",
+								1052688,
+								"noise@RVwJ9nnLJFXjzhMDljAo06<octaves",
+								1052688,
+								"noise@al4kn8TxPdsts1hOk63cO7<octaves",
+								1052688
+							],
+							"flags": 1,
+							"attribs": [
+								"net.maxon.node.attribute.orderindex",
+								{
+									"dataType": "int64",
+									"content": 5000
+								},
+								"net.maxon.node.ionodes",
+								{
+									"dataType": "(net.maxon.datatype.internedid,int64)",
+									"isArray": true,
+									"content": [
+										{
+											"_0": "in",
+											"_1": -9223372036854775808
+										}
+									]
+								},
+								"portDescriptionData",
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.node.attribute.hideportinnodegraph",
+												{
+													"dataType": "bool",
+													"content": true
+												}
+											]
+										}
+									}
+								},
+								"portDescriptionStringLazy",
+								{
+									"dataType": "<net.maxon.interface.lazylanguagedictionary>C",
+									"content": {
+										"referenceClassType": "net.maxon.class.lazylanguagedictionary"
+									}
+								}
+							]
+						},
+						"inport@MasIXcYeCdHvgaKjZmwyx4",
+						{
+							"targets": [
+								"noise@QOErmy3uPpUjxcaXA1AUB9<noisetype",
+								1052688,
+								"noise@RVwJ9nnLJFXjzhMDljAo06<noisetype",
+								1052688,
+								"noise@al4kn8TxPdsts1hOk63cO7<noisetype",
+								1052688
+							],
+							"flags": 1,
+							"attribs": [
+								"net.maxon.node.attribute.orderindex",
+								{
+									"dataType": "int64",
+									"content": 4000
+								},
+								"net.maxon.node.ionodes",
+								{
+									"dataType": "(net.maxon.datatype.internedid,int64)",
+									"isArray": true,
+									"content": [
+										{
+											"_0": "in",
+											"_1": -9223372036854775808
+										}
+									]
+								},
+								"portDescriptionData",
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.node.attribute.hideportinnodegraph",
+												{
+													"dataType": "bool",
+													"content": true
+												}
+											]
+										}
+									}
+								},
+								"portDescriptionStringLazy",
+								{
+									"dataType": "<net.maxon.interface.lazylanguagedictionary>C",
+									"content": {
+										"referenceClassType": "net.maxon.class.lazylanguagedictionary"
+									}
+								}
+							]
+						},
+						"inport@P8G9IEhgI5Zqoq5PJ1Qt97",
+						{
+							"targets": [
+								"switch@KJZ8HqqrC5uhRFp$I4rbA8<index",
+								1052688
+							],
+							"flags": 1,
+							"attribs": [
+								"net.maxon.node.attribute.orderindex",
+								{
+									"dataType": "int64",
+									"content": 10000
+								},
+								"net.maxon.node.ionodes",
+								{
+									"dataType": "(net.maxon.datatype.internedid,int64)",
+									"isArray": true,
+									"content": [
+										{
+											"_0": "in",
+											"_1": -9223372036854775808
+										}
+									]
+								},
+								"portDescriptionData",
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.node.attribute.hideportinnodegraph",
+												{
+													"dataType": "bool",
+													"content": true
+												}
+											]
+										}
+									}
+								},
+								"portDescriptionStringLazy",
+								{
+									"dataType": "<net.maxon.interface.lazylanguagedictionary>C",
+									"content": {
+										"referenceClassType": "net.maxon.class.lazylanguagedictionary"
+									}
+								},
+								"portDescriptionUi",
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.description.ui.base.guitypeid",
+												{
+													"dataType": "net.maxon.datatype.id",
+													"content": "net.maxon.ui.bool"
+												}
+											]
+										}
+									}
+								}
+							]
+						},
+						"inport@Sq0_pgwREtYqOh78CsL9N9",
+						{
+							"targets": [
+								"noise@QOErmy3uPpUjxcaXA1AUB9<time",
+								1052688,
+								"noise@RVwJ9nnLJFXjzhMDljAo06<time",
+								1052688,
+								"noise@al4kn8TxPdsts1hOk63cO7<time",
+								1052688
+							],
+							"flags": 1,
+							"attribs": [
+								"net.maxon.node.attribute.orderindex",
+								{
+									"dataType": "int64",
+									"content": 1000
+								},
+								"net.maxon.node.ionodes",
+								{
+									"dataType": "(net.maxon.datatype.internedid,int64)",
+									"isArray": true,
+									"content": [
+										{
+											"_0": "in",
+											"_1": -9223372036854775808
+										}
+									]
+								},
+								"portDescriptionData",
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.description.data.base.unit",
+												{
+													"dataType": "net.maxon.datatype.id",
+													"content": "time"
+												},
+												"net.maxon.node.attribute.hideportinnodegraph",
+												{
+													"dataType": "bool",
+													"content": true
+												}
+											]
+										}
+									}
+								},
+								"portDescriptionStringLazy",
+								{
+									"dataType": "<net.maxon.interface.lazylanguagedictionary>C",
+									"content": {
+										"referenceClassType": "net.maxon.class.lazylanguagedictionary"
+									}
+								},
+								"portDescriptionUi",
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.description.ui.base.guitypeid",
+												{
+													"dataType": "net.maxon.datatype.id",
+													"content": "net.maxon.ui.number"
+												}
+											]
+										}
+									}
+								}
+							]
+						},
+						"inport@V4q2G_MdBppsqw_ZaXde99",
+						{
+							"targets": [
+								"noise@QOErmy3uPpUjxcaXA1AUB9<lacunarity",
+								1052688,
+								"noise@RVwJ9nnLJFXjzhMDljAo06<lacunarity",
+								1052688,
+								"noise@al4kn8TxPdsts1hOk63cO7<lacunarity",
+								1052688
+							],
+							"flags": 1,
+							"attribs": [
+								"net.maxon.node.attribute.orderindex",
+								{
+									"dataType": "int64",
+									"content": 7000
+								},
+								"net.maxon.node.ionodes",
+								{
+									"dataType": "(net.maxon.datatype.internedid,int64)",
+									"isArray": true,
+									"content": [
+										{
+											"_0": "in",
+											"_1": -9223372036854775808
+										}
+									]
+								},
+								"portDescriptionData",
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.node.attribute.hideportinnodegraph",
+												{
+													"dataType": "bool",
+													"content": true
+												}
+											]
+										}
+									}
+								},
+								"portDescriptionStringLazy",
+								{
+									"dataType": "<net.maxon.interface.lazylanguagedictionary>C",
+									"content": {
+										"referenceClassType": "net.maxon.class.lazylanguagedictionary"
+									}
+								}
+							]
+						},
+						"inport@cdAAGFxLMlSjCqX_ILbcj_",
+						{
+							"targets": [
+								"noise@QOErmy3uPpUjxcaXA1AUB9<gain",
+								1052688,
+								"noise@RVwJ9nnLJFXjzhMDljAo06<gain",
+								1052688,
+								"noise@al4kn8TxPdsts1hOk63cO7<gain",
+								1052688
+							],
+							"flags": 1,
+							"attribs": [
+								"net.maxon.node.attribute.orderindex",
+								{
+									"dataType": "int64",
+									"content": 8000
+								},
+								"net.maxon.node.ionodes",
+								{
+									"dataType": "(net.maxon.datatype.internedid,int64)",
+									"isArray": true,
+									"content": [
+										{
+											"_0": "in",
+											"_1": -9223372036854775808
+										}
+									]
+								},
+								"portDescriptionData",
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.node.attribute.hideportinnodegraph",
+												{
+													"dataType": "bool",
+													"content": true
+												}
+											]
+										}
+									}
+								},
+								"portDescriptionStringLazy",
+								{
+									"dataType": "<net.maxon.interface.lazylanguagedictionary>C",
+									"content": {
+										"referenceClassType": "net.maxon.class.lazylanguagedictionary"
+									}
+								}
+							]
+						},
+						"inport@duVLDHuUORngNvYwmAHv28",
+						{
+							"targets": [
+								"noise@QOErmy3uPpUjxcaXA1AUB9<exponent",
+								1052688,
+								"noise@RVwJ9nnLJFXjzhMDljAo06<exponent",
+								1052688,
+								"noise@al4kn8TxPdsts1hOk63cO7<exponent",
+								1052688
+							],
+							"flags": 1,
+							"attribs": [
+								"net.maxon.node.attribute.orderindex",
+								{
+									"dataType": "int64",
+									"content": 9000
+								},
+								"net.maxon.node.ionodes",
+								{
+									"dataType": "(net.maxon.datatype.internedid,int64)",
+									"isArray": true,
+									"content": [
+										{
+											"_0": "in",
+											"_1": -9223372036854775808
+										}
+									]
+								},
+								"portDescriptionData",
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.node.attribute.hideportinnodegraph",
+												{
+													"dataType": "bool",
+													"content": true
+												}
+											]
+										}
+									}
+								},
+								"portDescriptionStringLazy",
+								{
+									"dataType": "<net.maxon.interface.lazylanguagedictionary>C",
+									"content": {
+										"referenceClassType": "net.maxon.class.lazylanguagedictionary"
+									}
+								}
+							]
+						},
+						"out@VFQZPI_QMFBn8GdpABRJg4",
+						{
+							"targets": [
+								"noise@QOErmy3uPpUjxcaXA1AUB9<value",
+								1052688,
+								"noise@RVwJ9nnLJFXjzhMDljAo06<value",
+								1052688,
+								"noise@al4kn8TxPdsts1hOk63cO7<value",
+								1052688
+							],
+							"flags": 1,
+							"attribs": [
+								"net.maxon.node.attribute.orderindex",
+								{
+									"dataType": "int64",
+									"content": 0
+								},
+								"portDescriptionData",
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.description.data.base.unit",
+												{
+													"dataType": "net.maxon.datatype.id",
+													"content": "meter"
+												}
+											]
+										}
+									}
+								},
+								"portDescriptionStringLazy",
+								{
+									"dataType": "<net.maxon.interface.lazylanguagedictionary>C",
+									"content": {
+										"referenceClassType": "net.maxon.class.lazylanguagedictionary"
+									}
+								},
+								"portDescriptionUi",
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.description.ui.base.guitypeid",
+												{
+													"dataType": "net.maxon.datatype.id",
+													"content": "net.maxon.ui.number"
+												}
+											]
+										}
+									}
+								}
+							]
+						}
+					],
+					"flags": 2,
+					"attribs": [
+						"in",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"widgetDataBlackBox",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 2,
+													"_data": [
+														{
+															"dataType": "net.maxon.datatype.id",
+															"content": "net.maxon.mvp.widgetclasses.ionodev2-V1.1"
+														},
+														{
+															"dataType": "net.maxon.interface.datadictionary-C",
+															"content": {
+																"referenceDataType": "net.maxon.interface.datadictionary-C",
+																"_impl": {
+																	"_mode": 1,
+																	"_keyType": "net.maxon.datatype.internedid",
+																	"_fastData": [
+																		"net.maxon.mvp.widgetdata.autolayout",
+																		{
+																			"dataType": "bool",
+																			"content": false
+																		},
+																		"net.maxon.mvp.widgetdata.fixed_size_h_v3",
+																		{
+																			"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+																			"content": {
+																				"value": 20.0,
+																				"unit": 2
+																			}
+																		},
+																		"net.maxon.mvp.widgetdata.fixed_size_v_v3",
+																		{
+																			"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+																			"content": {
+																				"value": 550.4000244140625,
+																				"unit": 0
+																			}
+																		},
+																		"net.maxon.mvp.widgetdata.position_v3",
+																		{
+																			"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
+																			"content": {
+																				"x": {
+																					"value": -222.1090850830078,
+																					"unit": 0
+																				},
+																				"y": {
+																					"value": -3.818234443664551,
+																					"unit": 0
+																				}
+																			}
+																		}
+																	]
+																}
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				">",
+				{
+					"children": [
+						"out@CJyv4wNcFFiu28y7kFBmB9",
+						{
+							"flags": 1,
+							"attribs": [
+								"net.maxon.node.attribute.orderindex",
+								{
+									"dataType": "int64",
+									"content": 0
+								},
+								"portDescriptionStringLazy",
+								{
+									"dataType": "<net.maxon.interface.lazylanguagedictionary>C",
+									"content": {
+										"referenceClassType": "net.maxon.class.lazylanguagedictionary"
+									}
+								}
+							]
+						}
+					],
+					"flags": 2,
+					"attribs": [
+						"out",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"widgetDataBlackBox",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 2,
+													"_data": [
+														{
+															"dataType": "net.maxon.datatype.id",
+															"content": "net.maxon.mvp.widgetclasses.ionodev2-V1.1"
+														},
+														{
+															"dataType": "net.maxon.interface.datadictionary-C",
+															"content": {
+																"referenceDataType": "net.maxon.interface.datadictionary-C",
+																"_impl": {
+																	"_mode": 1,
+																	"_keyType": "net.maxon.datatype.internedid",
+																	"_fastData": [
+																		"net.maxon.mvp.widgetdata.autolayout",
+																		{
+																			"dataType": "bool",
+																			"content": false
+																		},
+																		"net.maxon.mvp.widgetdata.fixed_size_h_v3",
+																		{
+																			"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+																			"content": {
+																				"value": 20.0,
+																				"unit": 2
+																			}
+																		},
+																		"net.maxon.mvp.widgetdata.fixed_size_v_v3",
+																		{
+																			"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+																			"content": {
+																				"value": 550.4000244140625,
+																				"unit": 0
+																			}
+																		},
+																		"net.maxon.mvp.widgetdata.position_v3",
+																		{
+																			"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
+																			"content": {
+																				"x": {
+																					"value": 852.4363403320313,
+																					"unit": 0
+																				},
+																				"y": {
+																					"value": -3.818234443664551,
+																					"unit": 0
+																				}
+																			}
+																		}
+																	]
+																}
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"arithmetic@MYNgvRutHdwk8tVmUfD$Q7",
+				{
+					"children": [
+						"<",
+						{
+							"children": [
+								"datatype",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "int"
+										}
+									]
+								},
+								"in2",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "int64",
+											"content": 87623
+										}
+									]
+								},
+								"operation",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "add"
+										}
+									]
+								}
+							],
+							"flags": 2
+						},
+						">",
+						{
+							"children": [
+								"out",
+								{
+									"targets": [
+										"noise@al4kn8TxPdsts1hOk63cO7<seed",
+										1052688
+									]
+								}
+							],
+							"flags": 2
+						}
+					],
+					"flags": 1,
+					"baseId": "net.maxon.node.arithmetic",
+					"baseArgs": {
+						"referenceDataType": "net.maxon.interface.datadictionary-C",
+						"_impl": {
+							"_mode": 2,
+							"_data": [
+								{
+									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
+									"content": {
+										"_0": {
+											"referenceIndex": 0,
+											"referenceDataType": "net.maxon.graph.interface.nodepath-C",
+											"path": "<datatype"
+										},
+										"_1": 2
+									}
+								},
+								{
+									"dataType": "net.maxon.datatype.id",
+									"content": "float"
+								},
+								{
+									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
+									"content": {
+										"_0": {
+											"referenceDataType": "net.maxon.graph.interface.nodepath-C",
+											"path": "<datatype"
+										},
+										"_1": 3
+									}
+								},
+								{
+									"dataType": "net.maxon.datatype.id",
+									"content": "int"
+								},
+								{
+									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
+									"content": {
+										"_0": {
+											"referenceIndex": 1,
+											"referenceDataType": "net.maxon.graph.interface.nodepath-C",
+											"path": "<operation"
+										},
+										"_1": 2
+									}
+								},
+								{
+									"dataType": "net.maxon.datatype.id",
+									"content": "add"
+								}
+							]
+						}
+					},
+					"attribs": [
+						"net.maxon.node.attribute.insertindex",
+						{
+							"dataType": "int64",
+							"content": 0
+						},
+						"net.maxon.node.base.displaypreview",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"widgetDataBlackBox",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.mvp.widgetclasses.nodev2-V1.1"
+										},
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.mvp.widgetdata.autolayout",
+														{
+															"dataType": "bool",
+															"content": false
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_h_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 128.0,
+																"unit": 2
+															}
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_v_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 0.0,
+																"unit": 0
+															}
+														},
+														"net.maxon.mvp.widgetdata.position_v3",
+														{
+															"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
+															"content": {
+																"x": {
+																	"value": 21.527252197265626,
+																	"unit": 0
+																},
+																"y": {
+																	"value": 691.0602416992188,
+																	"unit": 0
+																}
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"arithmetic@dt4_cYzxM1WiB8v9NvTIp$",
+				{
+					"children": [
+						"<",
+						{
+							"children": [
+								"datatype",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "int"
+										}
+									]
+								},
+								"in2",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "int64",
+											"content": 54353250
+										}
+									]
+								},
+								"operation",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "add"
+										}
+									]
+								}
+							],
+							"flags": 2
+						},
+						">",
+						{
+							"children": [
+								"out",
+								{
+									"targets": [
+										"noise@QOErmy3uPpUjxcaXA1AUB9<seed",
+										1052688
+									]
+								}
+							],
+							"flags": 2
+						}
+					],
+					"flags": 1,
+					"baseId": "net.maxon.node.arithmetic",
+					"baseArgs": {
+						"referenceDataType": "net.maxon.interface.datadictionary-C",
+						"_impl": {
+							"_mode": 2,
+							"_data": [
+								{
+									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
+									"content": {
+										"_0": {
+											"referenceIndex": 0
+										},
+										"_1": 2
+									}
+								},
+								{
+									"dataType": "net.maxon.datatype.id",
+									"content": "float"
+								},
+								{
+									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
+									"content": {
+										"_0": {
+											"referenceDataType": "net.maxon.graph.interface.nodepath-C",
+											"path": "<datatype"
+										},
+										"_1": 3
+									}
+								},
+								{
+									"dataType": "net.maxon.datatype.id",
+									"content": "int"
+								},
+								{
+									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
+									"content": {
+										"_0": {
+											"referenceIndex": 1
+										},
+										"_1": 2
+									}
+								},
+								{
+									"dataType": "net.maxon.datatype.id",
+									"content": "add"
+								}
+							]
+						}
+					},
+					"attribs": [
+						"net.maxon.node.attribute.insertindex",
+						{
+							"dataType": "int64",
+							"content": 0
+						},
+						"net.maxon.node.base.displaypreview",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"widgetDataBlackBox",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.mvp.widgetclasses.nodev2-V1.1"
+										},
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.mvp.widgetdata.autolayout",
+														{
+															"dataType": "bool",
+															"content": false
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_h_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 128.0,
+																"unit": 2
+															}
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_v_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 0.0,
+																"unit": 0
+															}
+														},
+														"net.maxon.mvp.widgetdata.position_v3",
+														{
+															"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
+															"content": {
+																"x": {
+																	"value": -6.654541015625,
+																	"unit": 0
+																},
+																"y": {
+																	"value": 467.7119445800781,
+																	"unit": 0
+																}
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"composevector3@JJS8JTf6JlPjW9xX_uQdB9",
+				{
+					"children": [
+						">",
+						{
+							"children": [
+								"result",
+								{
+									"targets": [
+										"switch@KJZ8HqqrC5uhRFp$I4rbA8<in/_0",
+										1052688
+									]
+								}
+							],
+							"flags": 2
+						}
+					],
+					"flags": 1,
+					"baseId": "net.maxon.pattern.node.conversion.composevector3",
+					"attribs": [
+						"net.maxon.node.attribute.insertindex",
+						{
+							"dataType": "int64",
+							"content": 0
+						},
+						"net.maxon.node.base.displaypreview",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"widgetDataBlackBox",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.mvp.widgetclasses.nodev2-V1.1"
+										},
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.mvp.widgetdata.autolayout",
+														{
+															"dataType": "bool",
+															"content": false
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_h_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 128.0,
+																"unit": 2
+															}
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_v_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 0.0,
+																"unit": 0
+															}
+														},
+														"net.maxon.mvp.widgetdata.position_v3",
+														{
+															"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
+															"content": {
+																"x": {
+																	"value": 1166.4000244140626,
+																	"unit": 0
+																},
+																"y": {
+																	"value": 172.4000244140625,
+																	"unit": 0
+																}
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"composevector3@WHlwXOJbLFijwo61GUfY9_",
+				{
+					"children": [
+						">",
+						{
+							"children": [
+								"result",
+								{
+									"targets": [
+										"switch@KJZ8HqqrC5uhRFp$I4rbA8<in/_1",
+										1052688
+									]
+								}
+							],
+							"flags": 2
+						}
+					],
+					"flags": 1,
+					"baseId": "net.maxon.pattern.node.conversion.composevector3",
+					"attribs": [
+						"net.maxon.node.attribute.insertindex",
+						{
+							"dataType": "int64",
+							"content": 0
+						},
+						"net.maxon.node.base.displaypreview",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"widgetDataBlackBox",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.mvp.widgetclasses.nodev2-V1.1"
+										},
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.mvp.widgetdata.autolayout",
+														{
+															"dataType": "bool",
+															"content": false
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_h_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 128.0,
+																"unit": 2
+															}
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_v_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 0.0,
+																"unit": 0
+															}
+														},
+														"net.maxon.mvp.widgetdata.position_v3",
+														{
+															"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
+															"content": {
+																"x": {
+																	"value": 1198.9454345703126,
+																	"unit": 0
+																},
+																"y": {
+																	"value": 414.0364074707031,
+																	"unit": 0
+																}
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"maprange@COZM44EyKhBsZemMiuz2f9",
+				{
+					"children": [
+						"<",
+						{
+							"children": [
+								"in4",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "float64",
+											"content": -1.0
+										}
+									]
+								}
+							],
+							"flags": 2
+						},
+						">",
+						{
+							"children": [
+								"out",
+								{
+									"targets": [
+										"composevector3@JJS8JTf6JlPjW9xX_uQdB9<y",
+										1052688
+									]
+								}
+							],
+							"flags": 2
+						}
+					],
+					"flags": 1,
+					"baseId": "net.maxon.node.maprange",
+					"baseArgs": {
+						"referenceDataType": "net.maxon.interface.datadictionary-C",
+						"_impl": {
+							"_mode": 2,
+							"_data": [
+								{
+									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
+									"content": {
+										"_0": {
+											"referenceDataType": "net.maxon.graph.interface.nodepath-C",
+											"path": "<datatype"
+										},
+										"_1": 2
+									}
+								},
+								{
+									"dataType": "net.maxon.datatype.id",
+									"content": "float"
+								}
+							]
+						}
+					},
+					"attribs": [
+						"net.maxon.node.attribute.insertindex",
+						{
+							"dataType": "int64",
+							"content": 0
+						},
+						"net.maxon.node.base.displaypreview",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"widgetDataBlackBox",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.mvp.widgetclasses.nodev2-V1.1"
+										},
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.mvp.widgetdata.autolayout",
+														{
+															"dataType": "bool",
+															"content": false
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_h_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 128.0,
+																"unit": 2
+															}
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_v_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 0.0,
+																"unit": 0
+															}
+														},
+														"net.maxon.mvp.widgetdata.position_v3",
+														{
+															"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
+															"content": {
+																"x": {
+																	"value": 876.0000610351563,
+																	"unit": 0
+																},
+																"y": {
+																	"value": 396.0,
+																	"unit": 0
+																}
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"maprange@FQXcktWnAJMt2ldG66e_V7",
+				{
+					"children": [
+						"<",
+						{
+							"children": [
+								"in4",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "float64",
+											"content": -1.0
+										}
+									]
+								}
+							],
+							"flags": 2
+						},
+						">",
+						{
+							"children": [
+								"out",
+								{
+									"targets": [
+										"composevector3@JJS8JTf6JlPjW9xX_uQdB9<x",
+										1052688
+									]
+								}
+							],
+							"flags": 2
+						}
+					],
+					"flags": 1,
+					"baseId": "net.maxon.node.maprange",
+					"baseArgs": {
+						"referenceDataType": "net.maxon.interface.datadictionary-C",
+						"_impl": {
+							"_mode": 2,
+							"_data": [
+								{
+									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
+									"content": {
+										"_0": {
+											"referenceDataType": "net.maxon.graph.interface.nodepath-C",
+											"path": "<datatype"
+										},
+										"_1": 2
+									}
+								},
+								{
+									"dataType": "net.maxon.datatype.id",
+									"content": "float"
+								}
+							]
+						}
+					},
+					"attribs": [
+						"net.maxon.node.attribute.insertindex",
+						{
+							"dataType": "int64",
+							"content": 0
+						},
+						"net.maxon.node.base.displaypreview",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"widgetDataBlackBox",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.mvp.widgetclasses.nodev2-V1.1"
+										},
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.mvp.widgetdata.autolayout",
+														{
+															"dataType": "bool",
+															"content": false
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_h_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 128.0,
+																"unit": 2
+															}
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_v_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 0.0,
+																"unit": 0
+															}
+														},
+														"net.maxon.mvp.widgetdata.position_v3",
+														{
+															"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
+															"content": {
+																"x": {
+																	"value": 881.6000366210938,
+																	"unit": 0
+																},
+																"y": {
+																	"value": 82.0,
+																	"unit": 0
+																}
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"maprange@ZDkAv0sXP1FobRHf$dMw67",
+				{
+					"children": [
+						"<",
+						{
+							"children": [
+								"in4",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "float64",
+											"content": -1.0
+										}
+									]
+								}
+							],
+							"flags": 2
+						},
+						">",
+						{
+							"children": [
+								"out",
+								{
+									"targets": [
+										"composevector3@JJS8JTf6JlPjW9xX_uQdB9<z",
+										1052688
+									]
+								}
+							],
+							"flags": 2
+						}
+					],
+					"flags": 1,
+					"baseId": "net.maxon.node.maprange",
+					"baseArgs": {
+						"referenceDataType": "net.maxon.interface.datadictionary-C",
+						"_impl": {
+							"_mode": 2,
+							"_data": [
+								{
+									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
+									"content": {
+										"_0": {
+											"referenceDataType": "net.maxon.graph.interface.nodepath-C",
+											"path": "<datatype"
+										},
+										"_1": 2
+									}
+								},
+								{
+									"dataType": "net.maxon.datatype.id",
+									"content": "float"
+								}
+							]
+						}
+					},
+					"attribs": [
+						"net.maxon.node.attribute.insertindex",
+						{
+							"dataType": "int64",
+							"content": 0
+						},
+						"net.maxon.node.base.displaypreview",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"widgetDataBlackBox",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.mvp.widgetclasses.nodev2-V1.1"
+										},
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.mvp.widgetdata.autolayout",
+														{
+															"dataType": "bool",
+															"content": false
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_h_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 128.0,
+																"unit": 2
+															}
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_v_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 0.0,
+																"unit": 0
+															}
+														},
+														"net.maxon.mvp.widgetdata.position_v3",
+														{
+															"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
+															"content": {
+																"x": {
+																	"value": 880.800048828125,
+																	"unit": 0
+																},
+																"y": {
+																	"value": 742.0,
+																	"unit": 0
+																}
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"noise@QOErmy3uPpUjxcaXA1AUB9",
+				{
+					"children": [
+						"<",
+						{
+							"children": [
+								"absolute",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "bool",
+											"content": true
+										},
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"exponent",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"gain",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"lacunarity",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"noisetype",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"octaves",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"scale",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"seed",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "uint32",
+											"content": 124
+										},
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"time",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"twod",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"value",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							],
+							"flags": 2
+						},
+						">",
+						{
+							"children": [
+								"result",
+								{
+									"targets": [
+										"composevector3@WHlwXOJbLFijwo61GUfY9_<y",
+										1052688,
+										"maprange@COZM44EyKhBsZemMiuz2f9<in1",
+										1052688
+									]
+								}
+							],
+							"flags": 2
+						}
+					],
+					"flags": 1,
+					"baseId": "net.maxon.node.noise",
+					"attribs": [
+						"net.maxon.node.attribute.insertindex",
+						{
+							"dataType": "int64",
+							"content": 0
+						},
+						"net.maxon.node.base.displaypreview",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"widgetDataBlackBox",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.mvp.widgetclasses.nodev2-V1.1"
+										},
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.mvp.widgetdata.autolayout",
+														{
+															"dataType": "bool",
+															"content": false
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_h_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 128.0,
+																"unit": 2
+															}
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_v_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 0.0,
+																"unit": 0
+															}
+														},
+														"net.maxon.mvp.widgetdata.position_v3",
+														{
+															"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
+															"content": {
+																"x": {
+																	"value": 580.0,
+																	"unit": 0
+																},
+																"y": {
+																	"value": 378.04217529296877,
+																	"unit": 0
+																}
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"noise@RVwJ9nnLJFXjzhMDljAo06",
+				{
+					"children": [
+						"<",
+						{
+							"children": [
+								"absolute",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "bool",
+											"content": true
+										},
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"exponent",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"gain",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"lacunarity",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"noisetype",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"octaves",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"scale",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"seed",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"time",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"twod",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"value",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							],
+							"flags": 2
+						},
+						">",
+						{
+							"children": [
+								"result",
+								{
+									"targets": [
+										"composevector3@WHlwXOJbLFijwo61GUfY9_<x",
+										1052688,
+										"maprange@FQXcktWnAJMt2ldG66e_V7<in1",
+										1052688
+									]
+								}
+							],
+							"flags": 2
+						}
+					],
+					"flags": 1,
+					"baseId": "net.maxon.node.noise",
+					"attribs": [
+						"net.maxon.node.attribute.insertindex",
+						{
+							"dataType": "int64",
+							"content": 0
+						},
+						"net.maxon.node.base.displaypreview",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"widgetDataBlackBox",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.mvp.widgetclasses.nodev2-V1.1"
+										},
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.mvp.widgetdata.autolayout",
+														{
+															"dataType": "bool",
+															"content": false
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_h_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 128.0,
+																"unit": 2
+															}
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_v_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 0.0,
+																"unit": 0
+															}
+														},
+														"net.maxon.mvp.widgetdata.position_v3",
+														{
+															"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
+															"content": {
+																"x": {
+																	"value": 572.8363647460938,
+																	"unit": 0
+																},
+																"y": {
+																	"value": 14.784740447998047,
+																	"unit": 0
+																}
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"noise@al4kn8TxPdsts1hOk63cO7",
+				{
+					"children": [
+						"<",
+						{
+							"children": [
+								"absolute",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "bool",
+											"content": true
+										},
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"exponent",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"gain",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"lacunarity",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"noisetype",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"octaves",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"scale",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"seed",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "uint32",
+											"content": 125
+										},
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"time",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"twod",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"value",
+								{
+									"attribs": [
+										"portDescriptionData",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.hideportinnodegraph",
+														{
+															"dataType": "bool",
+															"content": false
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							],
+							"flags": 2
+						},
+						">",
+						{
+							"children": [
+								"result",
+								{
+									"targets": [
+										"composevector3@WHlwXOJbLFijwo61GUfY9_<z",
+										1052688,
+										"maprange@ZDkAv0sXP1FobRHf$dMw67<in1",
+										1052688
+									]
+								}
+							],
+							"flags": 2
+						}
+					],
+					"flags": 1,
+					"baseId": "net.maxon.node.noise",
+					"attribs": [
+						"net.maxon.node.attribute.insertindex",
+						{
+							"dataType": "int64",
+							"content": 0
+						},
+						"net.maxon.node.base.displaypreview",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"widgetDataBlackBox",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.mvp.widgetclasses.nodev2-V1.1"
+										},
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.mvp.widgetdata.autolayout",
+														{
+															"dataType": "bool",
+															"content": false
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_h_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 128.0,
+																"unit": 2
+															}
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_v_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 0.0,
+																"unit": 0
+															}
+														},
+														"net.maxon.mvp.widgetdata.position_v3",
+														{
+															"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
+															"content": {
+																"x": {
+																	"value": 592.0,
+																	"unit": 0
+																},
+																"y": {
+																	"value": 713.8632202148438,
+																	"unit": 0
+																}
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"switch@KJZ8HqqrC5uhRFp$I4rbA8",
+				{
+					"children": [
+						"<",
+						{
+							"children": [
+								"datatype",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.parametrictype.vec<3,float>"
+										}
+									]
+								}
+							],
+							"flags": 2
+						},
+						">",
+						{
+							"children": [
+								"out",
+								{
+									"targets": [
+										">out@CJyv4wNcFFiu28y7kFBmB9",
+										1052688
+									]
+								}
+							],
+							"flags": 2
+						}
+					],
+					"flags": 1,
+					"baseId": "net.maxon.node.switch",
+					"baseArgs": {
+						"referenceDataType": "net.maxon.interface.datadictionary-C",
+						"_impl": {
+							"_mode": 2,
+							"_data": [
+								{
+									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
+									"content": {
+										"_0": {
+											"referenceDataType": "net.maxon.graph.interface.nodepath-C",
+											"path": "<datatype"
+										},
+										"_1": 3
+									}
+								},
+								{
+									"dataType": "net.maxon.datatype.id",
+									"content": "net.maxon.parametrictype.vec<3,float>"
+								},
+								{
+									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
+									"content": {
+										"_0": {
+											"referenceIndex": 2,
+											"referenceDataType": "net.maxon.graph.interface.nodepath-C",
+											"path": "<in"
+										},
+										"_1": 2
+									}
+								},
+								{
+									"dataType": "(net.maxon.datatype.id,net.maxon.interface.datadictionary-C)",
+									"isArray": true,
+									"content": [
+										{
+											"_0": "_0",
+											"_1": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.insertindex",
+														{
+															"dataType": "int64",
+															"content": 1
+														}
+													]
+												}
+											}
+										},
+										{
+											"_0": "_1",
+											"_1": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.insertindex",
+														{
+															"dataType": "int64",
+															"content": 2
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							]
+						}
+					},
+					"attribs": [
+						"net.maxon.node.attribute.insertindex",
+						{
+							"dataType": "int64",
+							"content": 0
+						},
+						"net.maxon.node.base.displaypreview",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"widgetDataBlackBox",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.mvp.widgetclasses.nodev2-V1.1"
+										},
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.mvp.widgetdata.autolayout",
+														{
+															"dataType": "bool",
+															"content": false
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_h_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 128.0,
+																"unit": 2
+															}
+														},
+														"net.maxon.mvp.widgetdata.fixed_size_v_v3",
+														{
+															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+															"content": {
+																"value": 0.0,
+																"unit": 0
+															}
+														},
+														"net.maxon.mvp.widgetdata.position_v3",
+														{
+															"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
+															"content": {
+																"x": {
+																	"value": 1460.618408203125,
+																	"unit": 0
+																},
+																"y": {
+																	"value": 291.8909912109375,
+																	"unit": 0
+																}
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				}
+			],
+			"baseId": "net.maxon.node.group",
+			"attribs": [
+				"net.maxon.mvp.graphnodeselection",
+				{
+					"dataType": "net.maxon.interface.datadictionary-C",
+					"content": {
+						"referenceDataType": "net.maxon.interface.datadictionary-C",
+						"_impl": {
+							"_mode": 2,
+							"_data": [
+								{
+									"dataType": "(net.maxon.graph.interface.nodepath-C,net.maxon.datatype.internedid)",
+									"content": {
+										"_0": {
+											"referenceDataType": "net.maxon.graph.interface.nodepath-C",
+											"path": "switch@KJZ8HqqrC5uhRFp$I4rbA8"
+										},
+										"_1": ""
+									}
+								},
+								{
+									"dataType": "bool",
+									"content": true
+								}
+							]
+						}
+					}
+				},
+				"net.maxon.mvp.graphportselection",
+				{
+					"dataType": "net.maxon.interface.datadictionary-C",
+					"content": {}
+				},
+				"net.maxon.mvp.graphwireselection",
+				{
+					"dataType": "net.maxon.interface.datadictionary-C",
+					"content": {}
+				},
+				"net.maxon.node.attribute.insertindex",
+				{
+					"dataType": "int64",
+					"content": 0
+				},
+				"net.maxon.node.base.name",
+				{
+					"dataType": "net.maxon.interface.string-C",
+					"content": "3D Noise"
+				},
+				"nodeDescriptionData",
+				{
+					"dataType": "<net.maxon.interface.datadescriptiondefinition>C",
+					"content": {
+						"referenceClassType": "net.maxon.class.datadescriptiondefinition",
+						"_info": {},
+						"_description": [
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "include"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "net.maxon.node.base"
+										},
+										"net.maxon.description.data.base.generateignoreheader",
+										{
+											"dataType": "bool",
+											"content": true
+										},
+										"net.maxon.description.data.base.include",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.node.base"
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				"nodeDescriptionStringLazy",
+				{
+					"dataType": "<net.maxon.interface.lazylanguagestringdatadescriptiondefinition>C",
+					"content": {
+						"referenceClassType": "net.maxon.class.lazylanguagestringdatadescriptiondefinition"
+					}
+				},
+				"nodeDescriptionUi",
+				{
+					"dataType": "<net.maxon.interface.datadescriptiondefinition>C",
+					"content": {
+						"referenceClassType": "net.maxon.class.datadescriptiondefinition",
+						"_info": {},
+						"_description": [
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "include"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "net.maxon.node.base"
+										},
+										"net.maxon.description.data.base.generateignoreheader",
+										{
+											"dataType": "bool",
+											"content": true
+										},
+										"net.maxon.description.data.base.include",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.node.base"
+										}
+									]
+								}
+							},
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "attribute"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "out@VFQZPI_QMFBn8GdpABRJg4"
+										}
+									]
+								}
+							},
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "attribute"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "inport@Sq0_pgwREtYqOh78CsL9N9"
+										}
+									]
+								}
+							},
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "attribute"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "inport@Is7dYJY$EVMjWF3hhX8SL8"
+										}
+									]
+								}
+							},
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "attribute"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "inport@HaO0rCjnFNGus1QlilwNr4"
+										}
+									]
+								}
+							},
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "attribute"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "inport@MasIXcYeCdHvgaKjZmwyx4"
+										}
+									]
+								}
+							},
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "attribute"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "inport@Jb8qDM5eCp$hgLjCG2PGP6"
+										}
+									]
+								}
+							},
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "attribute"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "inport@FV$G72ifG1TohuIYuP5224"
+										}
+									]
+								}
+							},
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "attribute"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "inport@V4q2G_MdBppsqw_ZaXde99"
+										}
+									]
+								}
+							},
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "attribute"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "inport@cdAAGFxLMlSjCqX_ILbcj_"
+										}
+									]
+								}
+							},
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "attribute"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "inport@duVLDHuUORngNvYwmAHv28"
+										}
+									]
+								}
+							},
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "attribute"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "inport@P8G9IEhgI5Zqoq5PJ1Qt97"
+										}
+									]
+								}
+							},
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "attribute"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "out@CJyv4wNcFFiu28y7kFBmB9"
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				"widgetDataBlackBox",
+				{
+					"dataType": "net.maxon.interface.datadictionary-C",
+					"content": {
+						"referenceDataType": "net.maxon.interface.datadictionary-C",
+						"_impl": {
+							"_mode": 2,
+							"_data": [
+								{
+									"dataType": "net.maxon.datatype.id",
+									"content": "net.maxon.mvp.widgetclasses.nodev2-V1.1"
+								},
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.mvp.widgetdata.autolayout",
+												{
+													"dataType": "bool",
+													"content": false
+												},
+												"net.maxon.mvp.widgetdata.fixed_size_h_v3",
+												{
+													"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+													"content": {
+														"value": 128.0,
+														"unit": 2
+													}
+												},
+												"net.maxon.mvp.widgetdata.fixed_size_v_v3",
+												{
+													"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+													"content": {
+														"value": 0.0,
+														"unit": 0
+													}
+												},
+												"net.maxon.mvp.widgetdata.position_v3",
+												{
+													"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
+													"content": {
+														"x": {
+															"value": 915.7127075195313,
+															"unit": 0
+														},
+														"y": {
+															"value": 183.30674743652345,
+															"unit": 0
+														}
+													}
+												}
+											]
+										}
+									}
+								}
+							]
+						}
+					}
+				},
+				"widgetDataBlackBoxOut",
+				{
+					"dataType": "net.maxon.interface.datadictionary-C",
+					"content": {
+						"referenceDataType": "net.maxon.interface.datadictionary-C",
+						"_impl": {
+							"_mode": 2,
+							"_data": [
+								{
+									"dataType": "net.maxon.datatype.id",
+									"content": "net.maxon.mvp.widgetclasses.nodegraph-V1.1"
+								},
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.mvp.widgetdata.position_v3",
+												{
+													"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
+													"content": {
+														"x": {
+															"value": 195.45599365234376,
+															"unit": 0
+														},
+														"y": {
+															"value": 3.36004638671875,
+															"unit": 0
+														}
+													}
+												},
+												"net.maxon.mvp.widgetdata.scale_v2",
+												{
+													"dataType": "net.maxon.parametrictype.vec<2,float64>",
+													"content": {
+														"x": 0.8799999952316284,
+														"y": 0.8799999952316284
+													}
+												}
+											]
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+	}
+}
