@@ -2,6 +2,6 @@
 	"identification": "net.maxon.asset.metadata",
 	"content": {
 		"dataType": "net.maxon.interface.string-C",
-		"content": "1.01"
+		"content": "1.02"
 	}
 }
