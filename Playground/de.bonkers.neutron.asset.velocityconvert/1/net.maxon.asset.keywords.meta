@@ -1,0 +1,10 @@
+﻿{
+	"identification": "net.maxon.asset.metadata",
+	"content": {
+		"dataType": "net.maxon.datatype.id",
+		"isArray": true,
+		"content": [
+			"keyword@905c45b6b0b0452b89c19a80af3bf52a"
+		]
+	}
+}
