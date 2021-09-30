@@ -66,18 +66,6 @@
 			},
 			{
 				"assetIdAndVersion": {
-					"_0": "net.maxon.neutron.modeling.connect",
-					"_1": ""
-				},
-				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
-				"assetCreationDate": {
-					"timestamp": 0
-				},
-				"originalName": "Connect",
-				"updatePolicy": 2
-			},
-			{
-				"assetIdAndVersion": {
 					"_0": "net.maxon.neutron.modeling.selection.toarray",
 					"_1": ""
 				},
@@ -110,6 +98,18 @@
 					"timestamp": 0
 				},
 				"originalName": "Get Element",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.neutron.modeling.connect",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Connect",
 				"updatePolicy": 2
 			},
 			{

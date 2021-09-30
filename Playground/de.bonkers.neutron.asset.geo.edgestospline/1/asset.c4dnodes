@@ -13,6 +13,14 @@
 						{
 							"targets": [
 								"active@DOs0TmGqA5BhD_tZqb6XHe<geometryin",
+								1052688,
+								"container@WlzGNYcqOt6qfl2q_8SdUY<outerdomain",
+								1052688,
+								"container@fmgptR3zMR2ub44mQyxWwd<outerdomain",
+								1052688,
+								"loopcarriedvalue@L9$LMUC8CdRtHLSBiqJISe<outerdomain",
+								1052688,
+								"loopcarriedvalue@USSp5C$3BdjhQgSto9pThc<outerdomain",
 								1052688
 							],
 							"attribs": [
@@ -116,6 +124,39 @@
 								{
 									"dataType": "int64",
 									"content": 3000
+								},
+								"net.maxon.node.ionodes",
+								{
+									"dataType": "(net.maxon.datatype.internedid,int64)",
+									"isArray": true,
+									"content": [
+										{
+											"_0": "in",
+											"_1": -9223372036854775808
+										}
+									]
+								},
+								"portDescriptionStringLazy",
+								{
+									"dataType": "<net.maxon.interface.lazylanguagedictionary>C",
+									"content": {
+										"referenceClassType": "net.maxon.class.lazylanguagedictionary"
+									}
+								}
+							]
+						},
+						"inport@XUG6q1dTOJei6niWl_YCxZ",
+						{
+							"targets": [
+								"loopcarriedvalue@USSp5C$3BdjhQgSto9pThc<inport@csZx8xg3G92n_vtYgCACsc",
+								1052688
+							],
+							"flags": 1,
+							"attribs": [
+								"net.maxon.node.attribute.orderindex",
+								{
+									"dataType": "int64",
+									"content": 4000
 								},
 								"net.maxon.node.ionodes",
 								{
@@ -242,7 +283,7 @@
 																		{
 																			"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
 																			"content": {
-																				"value": 1074.4000244140626,
+																				"value": 1043.199951171875,
 																				"unit": 0
 																			}
 																		},
@@ -251,11 +292,11 @@
 																			"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
 																			"content": {
 																				"x": {
-																					"value": -1856.483154296875,
+																					"value": -1446.754638671875,
 																					"unit": 0
 																				},
 																				"y": {
-																					"value": -279.5269470214844,
+																					"value": -246.57676696777345,
 																					"unit": 0
 																				}
 																			}
@@ -343,7 +384,7 @@
 																		{
 																			"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
 																			"content": {
-																				"value": 1074.4000244140626,
+																				"value": 1043.199951171875,
 																				"unit": 0
 																			}
 																		},
@@ -352,11 +393,11 @@
 																			"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
 																			"content": {
 																				"x": {
-																					"value": 1230.97705078125,
+																					"value": 2110.60400390625,
 																					"unit": 0
 																				},
 																				"y": {
-																					"value": -279.5269470214844,
+																					"value": -246.57676696777345,
 																					"unit": 0
 																				}
 																			}
@@ -410,8 +451,6 @@
 								"geometryout",
 								{
 									"targets": [
-										"connect@NKUT3ioyLh7nCnYXdIORfZ<geometryin/_0/geometry",
-										1052688,
 										"get@aq2U6FI6CpYsbd5q1P67pc<geometry",
 										1052688,
 										"toarray@Rtc2xLUnGZ2rgb$WqaGmqf<geometryin",
@@ -535,7 +574,7 @@
 														{
 															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
 															"content": {
-																"value": 144.0,
+																"value": 0.0,
 																"unit": 0
 															}
 														},
@@ -1251,145 +1290,6 @@
 						}
 					]
 				},
-				"connect@NKUT3ioyLh7nCnYXdIORfZ",
-				{
-					"flags": 1,
-					"baseId": "net.maxon.neutron.modeling.connect",
-					"baseArgs": {
-						"referenceDataType": "net.maxon.interface.datadictionary-C",
-						"_impl": {
-							"_mode": 2,
-							"_data": [
-								{
-									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
-									"content": {
-										"_0": {
-											"referenceIndex": 8,
-											"referenceDataType": "net.maxon.graph.interface.nodepath-C",
-											"path": "<geometryin"
-										},
-										"_1": 2
-									}
-								},
-								{
-									"dataType": "(net.maxon.datatype.id,net.maxon.interface.datadictionary-C)",
-									"isArray": true,
-									"content": [
-										{
-											"_0": "_0",
-											"_1": {
-												"referenceDataType": "net.maxon.interface.datadictionary-C",
-												"_impl": {
-													"_mode": 1,
-													"_keyType": "net.maxon.datatype.internedid",
-													"_fastData": [
-														"net.maxon.node.attribute.insertindex",
-														{
-															"dataType": "int64",
-															"content": 1
-														}
-													]
-												}
-											}
-										},
-										{
-											"_0": "_1",
-											"_1": {
-												"referenceDataType": "net.maxon.interface.datadictionary-C",
-												"_impl": {
-													"_mode": 1,
-													"_keyType": "net.maxon.datatype.internedid",
-													"_fastData": [
-														"net.maxon.node.attribute.insertindex",
-														{
-															"dataType": "int64",
-															"content": 2
-														}
-													]
-												}
-											}
-										}
-									]
-								}
-							]
-						}
-					},
-					"attribs": [
-						"net.maxon.node.attribute.insertindex",
-						{
-							"dataType": "int64",
-							"content": 0
-						},
-						"net.maxon.node.base.displaypreview",
-						{
-							"dataType": "bool",
-							"content": false
-						},
-						"widgetDataBlackBox",
-						{
-							"dataType": "net.maxon.interface.datadictionary-C",
-							"content": {
-								"referenceDataType": "net.maxon.interface.datadictionary-C",
-								"_impl": {
-									"_mode": 2,
-									"_data": [
-										{
-											"dataType": "net.maxon.datatype.id",
-											"content": "net.maxon.mvp.widgetclasses.nodev2-V1.1"
-										},
-										{
-											"dataType": "net.maxon.interface.datadictionary-C",
-											"content": {
-												"referenceDataType": "net.maxon.interface.datadictionary-C",
-												"_impl": {
-													"_mode": 1,
-													"_keyType": "net.maxon.datatype.internedid",
-													"_fastData": [
-														"net.maxon.mvp.widgetdata.autolayout",
-														{
-															"dataType": "bool",
-															"content": false
-														},
-														"net.maxon.mvp.widgetdata.fixed_size_h_v3",
-														{
-															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
-															"content": {
-																"value": 128.0,
-																"unit": 2
-															}
-														},
-														"net.maxon.mvp.widgetdata.fixed_size_v_v3",
-														{
-															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
-															"content": {
-																"value": 0.0,
-																"unit": 0
-															}
-														},
-														"net.maxon.mvp.widgetdata.position_v3",
-														{
-															"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
-															"content": {
-																"x": {
-																	"value": 2277.127197265625,
-																	"unit": 0
-																},
-																"y": {
-																	"value": 6.800018310546875,
-																	"unit": 0
-																}
-															}
-														}
-													]
-												}
-											}
-										}
-									]
-								}
-							}
-						}
-					]
-				},
 				"container@JfI$0CC3FZxlu4ySDzD3Ne",
 				{
 					"children": [
@@ -1607,7 +1507,7 @@
 									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 									"content": {
 										"_0": {
-											"referenceIndex": 9,
+											"referenceIndex": 8,
 											"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 											"path": "<datatype"
 										},
@@ -1790,7 +1690,7 @@
 									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 									"content": {
 										"_0": {
-											"referenceIndex": 9
+											"referenceIndex": 8
 										},
 										"_1": 3
 									}
@@ -1962,7 +1862,7 @@
 									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 									"content": {
 										"_0": {
-											"referenceIndex": 10,
+											"referenceIndex": 9,
 											"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 											"path": "<in"
 										},
@@ -2082,7 +1982,7 @@
 									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 									"content": {
 										"_0": {
-											"referenceIndex": 10
+											"referenceIndex": 9
 										},
 										"_1": 5
 									}
@@ -2200,7 +2100,7 @@
 									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 									"content": {
 										"_0": {
-											"referenceIndex": 10
+											"referenceIndex": 9
 										},
 										"_1": 5
 									}
@@ -2269,11 +2169,11 @@
 															"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
 															"content": {
 																"x": {
-																	"value": 1111.0045166015626,
+																	"value": 1020.7493896484375,
 																	"unit": 0
 																},
 																"y": {
-																	"value": 537.795654296875,
+																	"value": 546.3912963867188,
 																	"unit": 0
 																}
 															}
@@ -2377,7 +2277,7 @@
 									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 									"content": {
 										"_0": {
-											"referenceIndex": 11,
+											"referenceIndex": 10,
 											"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 											"path": "<in"
 										},
@@ -2495,7 +2395,7 @@
 									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 									"content": {
 										"_0": {
-											"referenceIndex": 11
+											"referenceIndex": 10
 										},
 										"_1": 5
 									}
@@ -3193,7 +3093,7 @@
 																				{
 																					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
 																					"content": {
-																						"value": 1074.4000244140626,
+																						"value": 1043.199951171875,
 																						"unit": 0
 																					}
 																				},
@@ -3336,7 +3236,7 @@
 																				{
 																					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
 																					"content": {
-																						"value": 1074.4000244140626,
+																						"value": 1043.199951171875,
 																						"unit": 0
 																					}
 																				},
@@ -3345,7 +3245,7 @@
 																					"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
 																					"content": {
 																						"x": {
-																							"value": 1850.6904296875,
+																							"value": 2288.246337890625,
 																							"unit": 0
 																						},
 																						"y": {
@@ -4236,7 +4136,7 @@
 																{
 																	"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
 																	"content": {
-																		"value": 124.0,
+																		"value": 0.0,
 																		"unit": 0
 																	}
 																},
@@ -4304,7 +4204,7 @@
 																{
 																	"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
 																	"content": {
-																		"value": 124.0,
+																		"value": 0.0,
 																		"unit": 0
 																	}
 																},
@@ -4382,7 +4282,7 @@
 																{
 																	"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
 																	"content": {
-																		"value": 124.0,
+																		"value": 0.0,
 																		"unit": 0
 																	}
 																},
@@ -4450,7 +4350,7 @@
 																{
 																	"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
 																	"content": {
-																		"value": 124.0,
+																		"value": 0.0,
 																		"unit": 0
 																	}
 																},
@@ -4518,7 +4418,7 @@
 																{
 																	"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
 																	"content": {
-																		"value": 124.0,
+																		"value": 0.0,
 																		"unit": 0
 																	}
 																},
@@ -4586,7 +4486,7 @@
 																{
 																	"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
 																	"content": {
-																		"value": 124.0,
+																		"value": 0.0,
 																		"unit": 0
 																	}
 																},
@@ -5811,7 +5711,7 @@
 													"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 													"content": {
 														"_0": {
-															"referenceIndex": 12,
+															"referenceIndex": 11,
 															"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 															"path": "<arrayin"
 														},
@@ -5896,7 +5796,7 @@
 													"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 													"content": {
 														"_0": {
-															"referenceIndex": 12
+															"referenceIndex": 11
 														},
 														"_1": 5
 													}
@@ -6144,7 +6044,7 @@
 													"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 													"content": {
 														"_0": {
-															"referenceIndex": 13,
+															"referenceIndex": 12,
 															"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 															"path": "<operation"
 														},
@@ -6159,7 +6059,7 @@
 													"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 													"content": {
 														"_0": {
-															"referenceIndex": 14,
+															"referenceIndex": 13,
 															"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 															"path": "<operation"
 														},
@@ -6293,7 +6193,7 @@
 													"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 													"content": {
 														"_0": {
-															"referenceIndex": 13
+															"referenceIndex": 12
 														},
 														"_1": 2
 													}
@@ -6573,7 +6473,7 @@
 													"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 													"content": {
 														"_0": {
-															"referenceIndex": 15,
+															"referenceIndex": 14,
 															"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 															"path": "<datatype"
 														},
@@ -6602,7 +6502,7 @@
 													"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 													"content": {
 														"_0": {
-															"referenceIndex": 16,
+															"referenceIndex": 15,
 															"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 															"path": "<operation"
 														},
@@ -7272,7 +7172,7 @@
 													"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 													"content": {
 														"_0": {
-															"referenceIndex": 17,
+															"referenceIndex": 16,
 															"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 															"path": "<arrayin"
 														},
@@ -7315,7 +7215,7 @@
 													"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 													"content": {
 														"_0": {
-															"referenceIndex": 17
+															"referenceIndex": 16
 														},
 														"_1": 5
 													}
@@ -7389,7 +7289,7 @@
 													"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 													"content": {
 														"_0": {
-															"referenceIndex": 18,
+															"referenceIndex": 17,
 															"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 															"path": "<datatype"
 														},
@@ -7540,7 +7440,7 @@
 													"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 													"content": {
 														"_0": {
-															"referenceIndex": 18
+															"referenceIndex": 17
 														},
 														"_1": 3
 													}
@@ -7583,7 +7483,7 @@
 													"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 													"content": {
 														"_0": {
-															"referenceIndex": 19,
+															"referenceIndex": 18,
 															"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 															"path": "<arrayin"
 														},
@@ -7652,7 +7552,7 @@
 													"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 													"content": {
 														"_0": {
-															"referenceIndex": 20,
+															"referenceIndex": 19,
 															"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 															"path": "<datatype"
 														},
@@ -7796,7 +7696,7 @@
 													"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 													"content": {
 														"_0": {
-															"referenceIndex": 20
+															"referenceIndex": 19
 														},
 														"_1": 3
 													}
@@ -7992,7 +7892,7 @@
 													"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 													"content": {
 														"_0": {
-															"referenceIndex": 19
+															"referenceIndex": 18
 														},
 														"_1": 5
 													}
@@ -8180,7 +8080,7 @@
 													"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 													"content": {
 														"_0": {
-															"referenceIndex": 19
+															"referenceIndex": 18
 														},
 														"_1": 5
 													}
@@ -8321,7 +8221,7 @@
 											"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 											"content": {
 												"_0": {
-													"referenceIndex": 21,
+													"referenceIndex": 20,
 													"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 													"path": "<types"
 												},
@@ -8355,7 +8255,7 @@
 											"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 											"content": {
 												"_0": {
-													"referenceIndex": 22,
+													"referenceIndex": 21,
 													"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 													"path": "<types"
 												},
@@ -8423,7 +8323,7 @@
 											"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 											"content": {
 												"_0": {
-													"referenceIndex": 23,
+													"referenceIndex": 22,
 													"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 													"path": "<types/_0"
 												},
@@ -8438,7 +8338,7 @@
 											"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 											"content": {
 												"_0": {
-													"referenceIndex": 24,
+													"referenceIndex": 23,
 													"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 													"path": "<types/_0"
 												},
@@ -8453,7 +8353,7 @@
 											"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 											"content": {
 												"_0": {
-													"referenceIndex": 25,
+													"referenceIndex": 24,
 													"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 													"path": "<types/_1"
 												},
@@ -8468,7 +8368,7 @@
 											"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 											"content": {
 												"_0": {
-													"referenceIndex": 26,
+													"referenceIndex": 25,
 													"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 													"path": "<types/_1"
 												},
@@ -8483,7 +8383,7 @@
 											"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 											"content": {
 												"_0": {
-													"referenceIndex": 27,
+													"referenceIndex": 26,
 													"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 													"path": "<types/_2"
 												},
@@ -8498,7 +8398,7 @@
 											"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 											"content": {
 												"_0": {
-													"referenceIndex": 28,
+													"referenceIndex": 27,
 													"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 													"path": "<types/_2"
 												},
@@ -8677,6 +8577,22 @@
 										}
 									]
 								},
+								"inport@csZx8xg3G92n_vtYgCACsc",
+								{
+									"attribs": [
+										"net.maxon.node.ionodes",
+										{
+											"dataType": "(net.maxon.datatype.internedid,int64)",
+											"isArray": true,
+											"content": [
+												{
+													"_0": "in",
+													"_1": -9223372036854775808
+												}
+											]
+										}
+									]
+								},
 								"types",
 								{
 									"children": [
@@ -8741,7 +8657,7 @@
 																				{
 																					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
 																					"content": {
-																						"value": 1074.4000244140626,
+																						"value": 1043.199951171875,
 																						"unit": 0
 																					}
 																				},
@@ -8832,7 +8748,7 @@
 																				{
 																					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
 																					"content": {
-																						"value": 1074.4000244140626,
+																						"value": 1043.199951171875,
 																						"unit": 0
 																					}
 																				},
@@ -8841,7 +8757,7 @@
 																					"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
 																					"content": {
 																						"x": {
-																							"value": 1876.5584716796876,
+																							"value": 2138.95849609375,
 																							"unit": 0
 																						},
 																						"y": {
@@ -8900,6 +8816,24 @@
 												{
 													"dataType": "net.maxon.datatype.id",
 													"content": "net.maxon.registry.geometryabstraction.curve.types.bspline"
+												},
+												"portDescriptionData",
+												{
+													"dataType": "net.maxon.interface.datadictionary-C",
+													"content": {
+														"referenceDataType": "net.maxon.interface.datadictionary-C",
+														"_impl": {
+															"_mode": 1,
+															"_keyType": "net.maxon.datatype.internedid",
+															"_fastData": [
+																"net.maxon.node.attribute.hideportinnodegraph",
+																{
+																	"dataType": "bool",
+																	"content": false
+																}
+															]
+														}
+													}
 												}
 											]
 										}
@@ -9097,6 +9031,21 @@
 												}
 											]
 										},
+										"inport@csZx8xg3G92n_vtYgCACsc",
+										{
+											"targets": [
+												"assembler@KWQlGFf9NFIoXvYbEO5Ndb<splinetypein",
+												1052688
+											],
+											"flags": 1,
+											"attribs": [
+												"net.maxon.node.attribute.orderindex",
+												{
+													"dataType": "int64",
+													"content": 4000
+												}
+											]
+										},
 										"types",
 										{
 											"children": [
@@ -9199,7 +9148,7 @@
 															"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 															"content": {
 																"_0": {
-																	"referenceIndex": 29,
+																	"referenceIndex": 28,
 																	"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 																	"path": "<splinetypein"
 																},
@@ -9214,7 +9163,7 @@
 															"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 															"content": {
 																"_0": {
-																	"referenceIndex": 30,
+																	"referenceIndex": 29,
 																	"referenceDataType": "net.maxon.graph.interface.nodepath-C",
 																	"path": "<splinetypein"
 																},
@@ -9334,7 +9283,9 @@
 													"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 													"content": {
 														"_0": {
-															"referenceIndex": 8
+															"referenceIndex": 30,
+															"referenceDataType": "net.maxon.graph.interface.nodepath-C",
+															"path": "<geometryin"
 														},
 														"_1": 2
 													}
@@ -9469,7 +9420,7 @@
 											"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 											"content": {
 												"_0": {
-													"referenceIndex": 21
+													"referenceIndex": 20
 												},
 												"_1": 2
 											}
@@ -9501,7 +9452,7 @@
 											"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 											"content": {
 												"_0": {
-													"referenceIndex": 23
+													"referenceIndex": 22
 												},
 												"_1": 2
 											}
@@ -9514,7 +9465,7 @@
 											"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
 											"content": {
 												"_0": {
-													"referenceIndex": 24
+													"referenceIndex": 23
 												},
 												"_1": 3
 											}
@@ -10135,7 +10086,7 @@
 														{
 															"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
 															"content": {
-																"value": 124.0,
+																"value": 0.0,
 																"unit": 0
 															}
 														},
@@ -10169,11 +10120,6 @@
 				"net.maxon.mvp.graphnodeselection",
 				{
 					"dataType": "net.maxon.interface.datadictionary-C",
-					"content": {}
-				},
-				"net.maxon.mvp.graphportselection",
-				{
-					"dataType": "net.maxon.interface.datadictionary-C",
 					"content": {
 						"referenceDataType": "net.maxon.interface.datadictionary-C",
 						"_impl": {
@@ -10183,10 +10129,11 @@
 									"dataType": "(net.maxon.graph.interface.nodepath-C,net.maxon.datatype.internedid)",
 									"content": {
 										"_0": {
+											"referenceIndex": 34,
 											"referenceDataType": "net.maxon.graph.interface.nodepath-C",
-											"path": "<inport@SZA9UMKtMxfuiMSe8iLQSa"
+											"path": "internedidtoindex@HD2K8ktIDtbplz6k8N0O3e"
 										},
-										"_1": "in"
+										"_1": ""
 									}
 								},
 								{
@@ -10196,6 +10143,11 @@
 							]
 						}
 					}
+				},
+				"net.maxon.mvp.graphportselection",
+				{
+					"dataType": "net.maxon.interface.datadictionary-C",
+					"content": {}
 				},
 				"net.maxon.mvp.graphwireselection",
 				{
@@ -10504,11 +10456,11 @@
 													"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
 													"content": {
 														"x": {
-															"value": 1036.69482421875,
+															"value": 807.8948364257813,
 															"unit": 0
 														},
 														"y": {
-															"value": 156.09307861328126,
+															"value": 137.69308471679688,
 															"unit": 0
 														}
 													}
