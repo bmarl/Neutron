@@ -6,12 +6,10 @@ de.bonkers.neutron.asset.3dnoise
 	1
 		asset.c4dnodes 99455
 		net.maxon.asset.previewimageurl.meta.png 6291
-de.bonkers.neutron.asset.geo.edgestospline
-	1
-		asset.c4dnodes 309952
 de.bonkers.neutron.asset.splinify
 	1
 		asset.c4dnodes 258310
+		net.maxon.asset.previewimageurl.meta.png 6291
 de.bonkers.neutron.asset.velocityconvert
 	1
 		asset.c4dnodes 28892
@@ -19,7 +17,7 @@ de.bonkers.neutron.asset.velocityconvert
 keyword_905c45b6b0b0452b89c19a80af3bf52a
 	1
 		asset 0
-version 2
+version 3
 _index
 	0-2
 		index 2239
@@ -30,7 +28,7 @@ _index
 		net.maxon.asset.versiontag 716
 		net.maxon.node.bases 814
 		net.maxon.node.category 807
-		strings_en-US 3090
+		strings_en-US 3082
 	0-2.json
 		net.maxon.asset.colorcategory.json 353
 		net.maxon.asset.dependencies.2.json 15877
