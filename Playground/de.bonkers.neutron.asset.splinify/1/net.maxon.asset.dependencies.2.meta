@@ -1,0 +1,249 @@
+﻿{
+	"identification": "net.maxon.asset.metadata",
+	"content": {
+		"dataType": "net.maxon.datatype.asset.dependencystruct",
+		"isArray": true,
+		"content": [
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.neutron.geometry.get",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Geometry Property Get",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.array.readvalueatindex",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Get Element",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.neutron.group.primitive.spline.base",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Spline Primitive Group",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.neutron.geometry.pointinfo",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Points Info",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.container",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Assemble Collection",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.normalize",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Normalize",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.arithmetic",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Arithmetic",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.decomposecontainer",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Decompose Container",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.neutron.node.range",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Range",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.switch",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Switch",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.array.getcount",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Get Count",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.neutron.geometry.set",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Geometry Property Set",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.neutron.node.index",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Index Iterator",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.neutron.geometry.spline.assembler",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Assemble Spline",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.cross",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Cross Product",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.neutron.modeling.selection.toarray",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Selection to Indexes",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.array.buildfromsinglevalue",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Fill Array",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.composecontainer",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Compose Container",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.neutron.geometry.polygoninfo",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Polygons Info",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.neutron.modeling.selection.active",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Select",
+				"updatePolicy": 2
+			}
+		]
+	}
+}

@@ -1,0 +1,124 @@
+﻿{
+	"identification": "net.maxon.asset.metadata",
+	"content": {
+		"dataType": "net.maxon.interface.datadictionary-C",
+		"content": {
+			"referenceDataType": "net.maxon.interface.datadictionary-C",
+			"_impl": {
+				"_mode": 2,
+				"_data": [
+					{
+						"dataType": "net.maxon.datatype.internedid",
+						"content": "net.maxon.description.base.dbversion"
+					},
+					{
+						"dataType": "int64",
+						"content": 6
+					},
+					{
+						"dataType": "net.maxon.interface.cstring-C",
+						"content": ""
+					},
+					{
+						"dataType": "<net.maxon.interface.datadescriptiondefinition>C",
+						"content": {
+							"referenceClassType": "net.maxon.class.datadescriptiondefinition",
+							"_info": {},
+							"_description": [
+								{
+									"referenceDataType": "net.maxon.interface.datadictionary-C",
+									"_impl": {
+										"_mode": 1,
+										"_keyType": "net.maxon.datatype.internedid",
+										"_fastData": [
+											"net.maxon.description.base.command",
+											{
+												"dataType": "net.maxon.datatype.id",
+												"content": "include"
+											},
+											"net.maxon.description.base.identifier",
+											{
+												"dataType": "net.maxon.datatype.internedid",
+												"content": "net.maxon.neutron.group.primitive.spline.base"
+											},
+											"net.maxon.description.data.base.include",
+											{
+												"dataType": "net.maxon.datatype.id",
+												"content": "net.maxon.neutron.group.primitive.spline.base"
+											}
+										]
+									}
+								},
+								{
+									"referenceDataType": "net.maxon.interface.datadictionary-C",
+									"_impl": {
+										"_mode": 1,
+										"_keyType": "net.maxon.datatype.internedid",
+										"_fastData": [
+											"net.maxon.description.base.command",
+											{
+												"dataType": "net.maxon.datatype.id",
+												"content": "exportedstring"
+											},
+											"net.maxon.description.base.identifier",
+											{
+												"dataType": "net.maxon.datatype.internedid",
+												"content": "net.maxon.object.base.name"
+											},
+											"net.maxon.description.string.base.translatedstring",
+											{
+												"dataType": "net.maxon.interface.string-C",
+												"content": "Splinify"
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					{
+						"dataType": "net.maxon.interface.cstring-C",
+						"content": "<inport@bEETtzR4JNrrvLxhXRn2X2"
+					},
+					{
+						"dataType": "net.maxon.interface.datadictionary-C",
+						"content": {
+							"referenceDataType": "net.maxon.interface.datadictionary-C",
+							"_impl": {
+								"_mode": 1,
+								"_keyType": "net.maxon.datatype.internedid",
+								"_fastData": [
+									"net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Mode"
+									},
+									"{#enum#_0}net.maxon.description.base.command",
+									{
+										"dataType": "net.maxon.datatype.id",
+										"content": "string"
+									},
+									"{#enum#_0}net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Curved"
+									},
+									"{#enum#_1}net.maxon.description.base.command",
+									{
+										"dataType": "net.maxon.datatype.id",
+										"content": "string"
+									},
+									"{#enum#_1}net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Straight"
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}
