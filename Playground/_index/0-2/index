@@ -20,6 +20,21 @@ net.maxon.node.assettype.nodetemplate
 		net.maxon.asset.timestamp.version
 		net.maxon.asset.versiontag.version
 		net.maxon.node.category.meta
+de.bonkers.neutron.asset.geo.disconnect
+de.bonkers.neutron.asset.geo.disconnect
+net.maxon.node.assettype.nodetemplate
+	1
+	c427847b0d8b7c5ba03007c61df366f592850ab73d6c9fb89538056986a519cd
+		asset.c4dnodes
+		net.maxon.node.bases.meta
+		strings_en-US.meta
+		net.maxon.node.category.meta
+		net.maxon.asset.timestamp.version
+		net.maxon.asset.versiontag.version
+		net.maxon.asset.dependencies.2.meta
+de.bonkers.neutron.asset.geo.disconnect_c26bd1b89d0a4188856fd8b752e3e628
+de.bonkers.neutron.asset.geo.disconnect@c26bd1b89d0a4188856fd8b752e3e628
+net.maxon.node.assettype.nodetemplate
 de.bonkers.neutron.asset.geo.edgestospline
 de.bonkers.neutron.asset.geo.edgestospline
 net.maxon.node.assettype.nodetemplate
@@ -28,10 +43,10 @@ net.maxon.node.assettype.nodetemplate
 		asset.c4dnodes
 		net.maxon.node.bases.meta
 		strings_en-US.meta
-		net.maxon.node.category.meta
 		net.maxon.asset.dependencies.2.meta
 		net.maxon.asset.timestamp.version
 		net.maxon.asset.versiontag.version
+		net.maxon.node.category.meta
 de.bonkers.neutron.asset.splinify
 de.bonkers.neutron.asset.splinify
 net.maxon.node.assettype.nodetemplate

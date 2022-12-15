@@ -1,0 +1,1753 @@
+﻿{
+	"identification": "net.maxon.fileformat.c4dnodes",
+	"content": {
+		"referenceClassType": "net.maxon.node.class.nodesystemdata",
+		"version": 20,
+		"dbversion": 6,
+		"nodesystem": {
+			"children": [
+				"<",
+				{
+					"children": [
+						"geometryin",
+						{
+							"targets": [
+								"active@KKrhfMxtFJsp_uOBZcMFlI<geometryin",
+								1052688
+							],
+							"attribs": [
+								"net.maxon.node.attribute.orderindex",
+								{
+									"dataType": "int64",
+									"content": 0
+								},
+								"portDescriptionData",
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.node.attribute.isconverterport",
+												{
+													"dataType": "bool",
+													"content": true
+												}
+											]
+										}
+									}
+								},
+								"portDescriptionStringLazy",
+								{
+									"dataType": "<net.maxon.interface.lazylanguagedictionary>C",
+									"content": {
+										"referenceClassType": "net.maxon.class.lazylanguagedictionary"
+									}
+								}
+							]
+						},
+						"inport@BREhG07jBRiprE_98bIuBM",
+						{
+							"targets": [
+								"active@KKrhfMxtFJsp_uOBZcMFlI<selectionstring",
+								1052688
+							],
+							"flags": 1,
+							"attribs": [
+								"net.maxon.node.attribute.orderindex",
+								{
+									"dataType": "int64",
+									"content": 1000
+								},
+								"net.maxon.node.ionodes",
+								{
+									"dataType": "(net.maxon.datatype.internedid,int64)",
+									"isArray": true,
+									"content": [
+										{
+											"_0": "in",
+											"_1": -9223372036854775808
+										}
+									]
+								},
+								"portDescriptionData",
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.node.attribute.hideportinnodegraph",
+												{
+													"dataType": "bool",
+													"content": true
+												}
+											]
+										}
+									}
+								},
+								"portDescriptionStringLazy",
+								{
+									"dataType": "<net.maxon.interface.lazylanguagedictionary>C",
+									"content": {
+										"referenceClassType": "net.maxon.class.lazylanguagedictionary"
+									}
+								}
+							]
+						},
+						"inport@BdymI0nZLRBsT8ailGTwMK",
+						{
+							"targets": [
+								"active@KKrhfMxtFJsp_uOBZcMFlI<indices",
+								1052688
+							],
+							"flags": 1,
+							"attribs": [
+								"net.maxon.node.attribute.orderindex",
+								{
+									"dataType": "int64",
+									"content": 2000
+								},
+								"net.maxon.node.ionodes",
+								{
+									"dataType": "(net.maxon.datatype.internedid,int64)",
+									"isArray": true,
+									"content": [
+										{
+											"_0": "in",
+											"_1": -9223372036854775808
+										}
+									]
+								},
+								"portDescriptionData",
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.node.attribute.hideportinnodegraph",
+												{
+													"dataType": "bool",
+													"content": true
+												}
+											]
+										}
+									}
+								},
+								"portDescriptionStringLazy",
+								{
+									"dataType": "<net.maxon.interface.lazylanguagedictionary>C",
+									"content": {
+										"referenceClassType": "net.maxon.class.lazylanguagedictionary"
+									}
+								}
+							]
+						}
+					],
+					"flags": 2,
+					"attribs": [
+						"in",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"widgetDataBlackBox",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 2,
+													"_data": [
+														{
+															"dataType": "net.maxon.datatype.id",
+															"content": "net.maxon.mvp.serializationV2_0.blackbox.node"
+														},
+														{
+															"dataType": "net.maxon.interface.datadictionary-C",
+															"content": {
+																"referenceDataType": "net.maxon.interface.datadictionary-C",
+																"_impl": {
+																	"_mode": 2,
+																	"_data": [
+																		{
+																			"dataType": "net.maxon.datatype.id",
+																			"content": "net.maxon.mvp.serializationV2_0.data.node"
+																		},
+																		{
+																			"dataType": "((int64,net.maxon.parametrictype.vec<2,float32>),float32)",
+																			"content": {
+																				"_0": {
+																					"_0": -1,
+																					"_1": {
+																						"x": 0.0,
+																						"y": 0.0
+																					}
+																				},
+																				"_1": 128.0
+																			}
+																		}
+																	]
+																}
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				">",
+				{
+					"children": [
+						"geometryout",
+						{
+							"attribs": [
+								"net.maxon.node.attribute.orderindex",
+								{
+									"dataType": "int64",
+									"content": 0
+								},
+								"portDescriptionData",
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.node.attribute.isconverterport",
+												{
+													"dataType": "bool",
+													"content": true
+												}
+											]
+										}
+									}
+								},
+								"portDescriptionStringLazy",
+								{
+									"dataType": "<net.maxon.interface.lazylanguagedictionary>C",
+									"content": {
+										"referenceClassType": "net.maxon.class.lazylanguagedictionary"
+									}
+								}
+							]
+						}
+					],
+					"flags": 2,
+					"attribs": [
+						"out",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"widgetDataBlackBox",
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 2,
+													"_data": [
+														{
+															"dataType": "net.maxon.datatype.id",
+															"content": "net.maxon.mvp.serializationV2_0.blackbox.node"
+														},
+														{
+															"dataType": "net.maxon.interface.datadictionary-C",
+															"content": {
+																"referenceDataType": "net.maxon.interface.datadictionary-C",
+																"_impl": {
+																	"_mode": 2,
+																	"_data": [
+																		{
+																			"dataType": "net.maxon.datatype.id",
+																			"content": "net.maxon.mvp.serializationV2_0.data.node"
+																		},
+																		{
+																			"dataType": "((int64,net.maxon.parametrictype.vec<2,float32>),float32)",
+																			"content": {
+																				"_0": {
+																					"_0": -1,
+																					"_1": {
+																						"x": 0.0,
+																						"y": 0.0
+																					}
+																				},
+																				"_1": 128.0
+																			}
+																		}
+																	]
+																}
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"active@AR014BDoFlCuEN0ifC3UJI",
+				{
+					"children": [
+						"<",
+						{
+							"children": [
+								"selectionstring",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "net.maxon.interface.string-C",
+											"content": "all"
+										}
+									]
+								}
+							],
+							"flags": 2
+						},
+						">",
+						{
+							"children": [
+								"geometryout",
+								{
+									"targets": [
+										"connect@aA52j$BuKx8vtZGbPryS2J<geometryin/_0/geometry",
+										1052688
+									]
+								}
+							],
+							"flags": 2
+						}
+					],
+					"flags": 1,
+					"base": {
+						"referenceIndex": 0,
+						"referenceClassType": "net.maxon.node.class.nodesystemdata",
+						"version": 20,
+						"dbversion": 6,
+						"nodesystem": {
+							"baseId": "net.maxon.neutron.modeling.selection.active",
+							"baseArgs": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
+											"content": {
+												"_0": {
+													"referenceDataType": "net.maxon.graph.interface.nodepath-C",
+													"path": "<mode"
+												},
+												"_1": 2
+											}
+										},
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "polygons"
+										}
+									]
+								}
+							}
+						}
+					},
+					"attribs": [
+						"net.maxon.node.attribute.insertindex",
+						{
+							"dataType": "int64",
+							"content": 0
+						},
+						"net.maxon.node.base.displaypreview",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"widgetDataBlackBox",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.mvp.serializationV2_0.blackbox.node"
+										},
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 2,
+													"_data": [
+														{
+															"dataType": "net.maxon.datatype.id",
+															"content": "net.maxon.mvp.serializationV2_0.data.node"
+														},
+														{
+															"dataType": "((int64,net.maxon.parametrictype.vec<2,float32>),float32)",
+															"content": {
+																"_0": {
+																	"_0": -1,
+																	"_1": {
+																		"x": 876.1466674804688,
+																		"y": -89.00003051757813
+																	}
+																},
+																"_1": 128.0
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"active@HoEmxTT2A14kC3frYNy4BI",
+				{
+					"children": [
+						"<",
+						{
+							"children": [
+								"selectionstring",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "net.maxon.interface.string-C",
+											"content": "none"
+										}
+									]
+								}
+							],
+							"flags": 2
+						},
+						">",
+						{
+							"children": [
+								"geometryout",
+								{
+									"targets": [
+										"connect@aA52j$BuKx8vtZGbPryS2J<geometryin/_1/geometry",
+										1052688
+									]
+								}
+							],
+							"flags": 2
+						}
+					],
+					"flags": 1,
+					"base": {
+						"referenceIndex": 0
+					},
+					"attribs": [
+						"net.maxon.node.attribute.insertindex",
+						{
+							"dataType": "int64",
+							"content": 0
+						},
+						"net.maxon.node.base.displaypreview",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"widgetDataBlackBox",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.mvp.serializationV2_0.blackbox.node"
+										},
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 2,
+													"_data": [
+														{
+															"dataType": "net.maxon.datatype.id",
+															"content": "net.maxon.mvp.serializationV2_0.data.node"
+														},
+														{
+															"dataType": "((int64,net.maxon.parametrictype.vec<2,float32>),float32)",
+															"content": {
+																"_0": {
+																	"_0": -1,
+																	"_1": {
+																		"x": 878.5466918945313,
+																		"y": 136.99996948242188
+																	}
+																},
+																"_1": 128.0
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"active@KKrhfMxtFJsp_uOBZcMFlI",
+				{
+					"children": [
+						"<",
+						{
+							"children": [
+								"selectionstring",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "net.maxon.interface.string-C",
+											"content": "active"
+										}
+									]
+								}
+							],
+							"flags": 2
+						},
+						">",
+						{
+							"children": [
+								"geometryout",
+								{
+									"targets": [
+										"transferselection@ShNcRsz8EBujSpcfoo9QgK<geometryin",
+										1052688,
+										"transferselection@TO1TJF2VNpRiVRA4Kgru_P<geometryin",
+										1052688
+									]
+								}
+							],
+							"flags": 2
+						}
+					],
+					"flags": 1,
+					"base": {
+						"referenceIndex": 0
+					},
+					"attribs": [
+						"net.maxon.node.attribute.insertindex",
+						{
+							"dataType": "int64",
+							"content": 0
+						},
+						"net.maxon.node.base.displaypreview",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"widgetDataBlackBox",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.mvp.serializationV2_0.blackbox.node"
+										},
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 2,
+													"_data": [
+														{
+															"dataType": "net.maxon.datatype.id",
+															"content": "net.maxon.mvp.serializationV2_0.data.node"
+														},
+														{
+															"dataType": "((int64,net.maxon.parametrictype.vec<2,float32>),float32)",
+															"content": {
+																"_0": {
+																	"_0": -1,
+																	"_1": {
+																		"x": -10.253280639648438,
+																		"y": -65.40003967285156
+																	}
+																},
+																"_1": 128.0
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"connect@aA52j$BuKx8vtZGbPryS2J",
+				{
+					"children": [
+						"<",
+						{
+							"children": [
+								"net.maxon.command.modeling.connect.mergeselections",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "bool",
+											"content": true
+										}
+									]
+								}
+							],
+							"flags": 2
+						},
+						">",
+						{
+							"children": [
+								"geometryout",
+								{
+									"targets": [
+										">geometryout",
+										1052688
+									]
+								}
+							],
+							"flags": 2
+						}
+					],
+					"flags": 1,
+					"baseId": "net.maxon.neutron.modeling.connect",
+					"baseArgs": {
+						"referenceDataType": "net.maxon.interface.datadictionary-C",
+						"_impl": {
+							"_mode": 2,
+							"_data": [
+								{
+									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
+									"content": {
+										"_0": {
+											"referenceDataType": "net.maxon.graph.interface.nodepath-C",
+											"path": "<geometryin"
+										},
+										"_1": 2
+									}
+								},
+								{
+									"dataType": "(net.maxon.datatype.id,net.maxon.interface.datadictionary-C)",
+									"isArray": true,
+									"content": [
+										{
+											"_0": "_0",
+											"_1": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.insertindex",
+														{
+															"dataType": "int64",
+															"content": 1
+														}
+													]
+												}
+											}
+										},
+										{
+											"_0": "_1",
+											"_1": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 1,
+													"_keyType": "net.maxon.datatype.internedid",
+													"_fastData": [
+														"net.maxon.node.attribute.insertindex",
+														{
+															"dataType": "int64",
+															"content": 2
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							]
+						}
+					},
+					"attribs": [
+						"net.maxon.node.attribute.insertindex",
+						{
+							"dataType": "int64",
+							"content": 0
+						},
+						"net.maxon.node.base.displaypreview",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"widgetDataBlackBox",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.mvp.serializationV2_0.blackbox.node"
+										},
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 2,
+													"_data": [
+														{
+															"dataType": "net.maxon.datatype.id",
+															"content": "net.maxon.mvp.serializationV2_0.data.node"
+														},
+														{
+															"dataType": "((int64,net.maxon.parametrictype.vec<2,float32>),float32)",
+															"content": {
+																"_0": {
+																	"_0": -1,
+																	"_1": {
+																		"x": 1124.94677734375,
+																		"y": -49.40003967285156
+																	}
+																},
+																"_1": 128.0
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"delete@RYsjXknSPNfhUOyZZby_zL",
+				{
+					"children": [
+						"<",
+						{
+							"children": [
+								"mode",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "polygons"
+										}
+									]
+								},
+								"selectionstring",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "net.maxon.interface.string-C",
+											"content": "active"
+										}
+									]
+								}
+							],
+							"flags": 2
+						},
+						">",
+						{
+							"children": [
+								"geometryout",
+								{
+									"targets": [
+										"active@AR014BDoFlCuEN0ifC3UJI<geometryin",
+										1052688
+									]
+								}
+							],
+							"flags": 2
+						}
+					],
+					"flags": 1,
+					"baseId": "net.maxon.neutron.modeling.delete",
+					"baseArgs": {
+						"referenceDataType": "net.maxon.interface.datadictionary-C",
+						"_impl": {
+							"_mode": 2,
+							"_data": [
+								{
+									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
+									"content": {
+										"_0": {
+											"referenceIndex": 1,
+											"referenceDataType": "net.maxon.graph.interface.nodepath-C",
+											"path": "<mode"
+										},
+										"_1": 2
+									}
+								},
+								{
+									"dataType": "net.maxon.datatype.internedid",
+									"content": "polygons"
+								},
+								{
+									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
+									"content": {
+										"_0": {
+											"referenceIndex": 2,
+											"referenceDataType": "net.maxon.graph.interface.nodepath-C",
+											"path": "<mode"
+										},
+										"_1": 3
+									}
+								},
+								{
+									"dataType": "net.maxon.datatype.internedid",
+									"content": "polygons"
+								}
+							]
+						}
+					},
+					"attribs": [
+						"net.maxon.node.attribute.insertindex",
+						{
+							"dataType": "int64",
+							"content": 0
+						},
+						"net.maxon.node.base.displaypreview",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"widgetDataBlackBox",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.mvp.serializationV2_0.blackbox.node"
+										},
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 2,
+													"_data": [
+														{
+															"dataType": "net.maxon.datatype.id",
+															"content": "net.maxon.mvp.serializationV2_0.data.node"
+														},
+														{
+															"dataType": "((int64,net.maxon.parametrictype.vec<2,float32>),float32)",
+															"content": {
+																"_0": {
+																	"_0": -1,
+																	"_1": {
+																		"x": 648.800048828125,
+																		"y": -78.79999542236328
+																	}
+																},
+																"_1": 128.0
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"delete@WdiQtNofKFxrP33REVrIBN",
+				{
+					"children": [
+						"<",
+						{
+							"children": [
+								"mode",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "polygons"
+										}
+									]
+								},
+								"selectionstring",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "net.maxon.interface.string-C",
+											"content": "active"
+										}
+									]
+								}
+							],
+							"flags": 2
+						},
+						">",
+						{
+							"children": [
+								"geometryout",
+								{
+									"targets": [
+										"active@HoEmxTT2A14kC3frYNy4BI<geometryin",
+										1052688
+									]
+								}
+							],
+							"flags": 2
+						}
+					],
+					"flags": 1,
+					"baseId": "net.maxon.neutron.modeling.delete",
+					"baseArgs": {
+						"referenceDataType": "net.maxon.interface.datadictionary-C",
+						"_impl": {
+							"_mode": 2,
+							"_data": [
+								{
+									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
+									"content": {
+										"_0": {
+											"referenceIndex": 1
+										},
+										"_1": 2
+									}
+								},
+								{
+									"dataType": "net.maxon.datatype.internedid",
+									"content": "polygons"
+								},
+								{
+									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
+									"content": {
+										"_0": {
+											"referenceIndex": 2
+										},
+										"_1": 3
+									}
+								},
+								{
+									"dataType": "net.maxon.datatype.internedid",
+									"content": "polygons"
+								}
+							]
+						}
+					},
+					"attribs": [
+						"net.maxon.node.attribute.insertindex",
+						{
+							"dataType": "int64",
+							"content": 0
+						},
+						"net.maxon.node.base.displaypreview",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"widgetDataBlackBox",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.mvp.serializationV2_0.blackbox.node"
+										},
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 2,
+													"_data": [
+														{
+															"dataType": "net.maxon.datatype.id",
+															"content": "net.maxon.mvp.serializationV2_0.data.node"
+														},
+														{
+															"dataType": "((int64,net.maxon.parametrictype.vec<2,float32>),float32)",
+															"content": {
+																"_0": {
+																	"_0": -1,
+																	"_1": {
+																		"x": 647.9999389648438,
+																		"y": 134.4000244140625
+																	}
+																},
+																"_1": 128.0
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"invertselection@LY7GTf3HHxrlYBTr$RDIEI",
+				{
+					"children": [
+						"<",
+						{
+							"children": [
+								"mode",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "polygons"
+										}
+									]
+								}
+							],
+							"flags": 2
+						},
+						">",
+						{
+							"children": [
+								"geometryout",
+								{
+									"targets": [
+										"delete@RYsjXknSPNfhUOyZZby_zL<geometryin",
+										1052688
+									]
+								}
+							],
+							"flags": 2
+						}
+					],
+					"flags": 1,
+					"baseId": "net.maxon.neutron.modeling.selection.invertselection",
+					"baseArgs": {
+						"referenceDataType": "net.maxon.interface.datadictionary-C",
+						"_impl": {
+							"_mode": 2,
+							"_data": [
+								{
+									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
+									"content": {
+										"_0": {
+											"referenceDataType": "net.maxon.graph.interface.nodepath-C",
+											"path": "<mode"
+										},
+										"_1": 2
+									}
+								},
+								{
+									"dataType": "net.maxon.datatype.internedid",
+									"content": "polygons"
+								},
+								{
+									"dataType": "(net.maxon.graph.interface.nodepath-C,uchar)",
+									"content": {
+										"_0": {
+											"referenceDataType": "net.maxon.graph.interface.nodepath-C",
+											"path": "<mode"
+										},
+										"_1": 3
+									}
+								},
+								{
+									"dataType": "net.maxon.datatype.internedid",
+									"content": "polygons"
+								}
+							]
+						}
+					},
+					"attribs": [
+						"net.maxon.node.attribute.insertindex",
+						{
+							"dataType": "int64",
+							"content": 0
+						},
+						"net.maxon.node.base.displaypreview",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"widgetDataBlackBox",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.mvp.serializationV2_0.blackbox.node"
+										},
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 2,
+													"_data": [
+														{
+															"dataType": "net.maxon.datatype.id",
+															"content": "net.maxon.mvp.serializationV2_0.data.node"
+														},
+														{
+															"dataType": "((int64,net.maxon.parametrictype.vec<2,float32>),float32)",
+															"content": {
+																"_0": {
+																	"_0": -1,
+																	"_1": {
+																		"x": 448.79998779296877,
+																		"y": -65.19996643066406
+																	}
+																},
+																"_1": 128.0
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"transferselection@ShNcRsz8EBujSpcfoo9QgK",
+				{
+					"children": [
+						"<",
+						{
+							"children": [
+								"net.maxon.command.modeling.selection.convert.tolerant",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "bool",
+											"content": false
+										}
+									]
+								},
+								"net.maxon.command.modeling.selectiontype.from",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "polygon"
+										}
+									]
+								}
+							],
+							"flags": 2
+						},
+						">",
+						{
+							"children": [
+								"geometryout",
+								{
+									"targets": [
+										"invertselection@LY7GTf3HHxrlYBTr$RDIEI<geometryin",
+										1052688
+									]
+								}
+							],
+							"flags": 2
+						}
+					],
+					"flags": 1,
+					"baseId": "net.maxon.neutron.modeling.selection.transferselection",
+					"attribs": [
+						"net.maxon.node.attribute.insertindex",
+						{
+							"dataType": "int64",
+							"content": 0
+						},
+						"net.maxon.node.base.displaypreview",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"widgetDataBlackBox",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.mvp.serializationV2_0.blackbox.node"
+										},
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 2,
+													"_data": [
+														{
+															"dataType": "net.maxon.datatype.id",
+															"content": "net.maxon.mvp.serializationV2_0.data.node"
+														},
+														{
+															"dataType": "((int64,net.maxon.parametrictype.vec<2,float32>),float32)",
+															"content": {
+																"_0": {
+																	"_0": -1,
+																	"_1": {
+																		"x": 253.60003662109376,
+																		"y": -48.399993896484378
+																	}
+																},
+																"_1": 128.0
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"transferselection@TO1TJF2VNpRiVRA4Kgru_P",
+				{
+					"children": [
+						"<",
+						{
+							"children": [
+								"net.maxon.command.modeling.selection.convert.tolerant",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "bool",
+											"content": false
+										}
+									]
+								},
+								"net.maxon.command.modeling.selectiontype.from",
+								{
+									"attribs": [
+										"net.maxon.description.data.base.defaultvalue",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "polygon"
+										}
+									]
+								}
+							],
+							"flags": 2
+						},
+						">",
+						{
+							"children": [
+								"geometryout",
+								{
+									"targets": [
+										"delete@WdiQtNofKFxrP33REVrIBN<geometryin",
+										1052688
+									]
+								}
+							],
+							"flags": 2
+						}
+					],
+					"flags": 1,
+					"baseId": "net.maxon.neutron.modeling.selection.transferselection",
+					"attribs": [
+						"net.maxon.node.attribute.insertindex",
+						{
+							"dataType": "int64",
+							"content": 0
+						},
+						"net.maxon.node.base.displaypreview",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"widgetDataBlackBox",
+						{
+							"dataType": "net.maxon.interface.datadictionary-C",
+							"content": {
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 2,
+									"_data": [
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.mvp.serializationV2_0.blackbox.node"
+										},
+										{
+											"dataType": "net.maxon.interface.datadictionary-C",
+											"content": {
+												"referenceDataType": "net.maxon.interface.datadictionary-C",
+												"_impl": {
+													"_mode": 2,
+													"_data": [
+														{
+															"dataType": "net.maxon.datatype.id",
+															"content": "net.maxon.mvp.serializationV2_0.data.node"
+														},
+														{
+															"dataType": "((int64,net.maxon.parametrictype.vec<2,float32>),float32)",
+															"content": {
+																"_0": {
+																	"_0": -1,
+																	"_1": {
+																		"x": 253.60006713867188,
+																		"y": 152.0
+																	}
+																},
+																"_1": 128.0
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				}
+			],
+			"baseId": "net.maxon.neutron.modeling.modifier.base",
+			"attribs": [
+				"net.maxon.mvp.graphnodeselection",
+				{
+					"dataType": "net.maxon.interface.datadictionary-C",
+					"content": {}
+				},
+				"net.maxon.mvp.graphportselection",
+				{
+					"dataType": "net.maxon.interface.datadictionary-C",
+					"content": {}
+				},
+				"net.maxon.mvp.graphwireselection",
+				{
+					"dataType": "net.maxon.interface.datadictionary-C",
+					"content": {}
+				},
+				"net.maxon.node.attribute.insertindex",
+				{
+					"dataType": "int64",
+					"content": 0
+				},
+				"net.maxon.node.base.displaypreview",
+				{
+					"dataType": "bool",
+					"content": false
+				},
+				"net.maxon.node.base.name",
+				{
+					"dataType": "net.maxon.interface.string-C",
+					"content": "Disconnect"
+				},
+				"nodeDescriptionData",
+				{
+					"dataType": "<net.maxon.interface.datadescriptiondefinition>C",
+					"content": {
+						"referenceClassType": "net.maxon.class.datadescriptiondefinition",
+						"_info": {},
+						"_description": [
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "include"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "net.maxon.node.group"
+										},
+										"net.maxon.description.data.base.generateignoreheader",
+										{
+											"dataType": "bool",
+											"content": true
+										},
+										"net.maxon.description.data.base.include",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.node.group"
+										}
+									]
+								}
+							},
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "attribute"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "net.maxon.node.base.category"
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				"nodeDescriptionStringLazy",
+				{
+					"dataType": "<net.maxon.interface.lazylanguagestringdatadescriptiondefinition>C",
+					"content": {
+						"referenceClassType": "net.maxon.class.lazylanguagestringdatadescriptiondefinition"
+					}
+				},
+				"nodeDescriptionUi",
+				{
+					"dataType": "<net.maxon.interface.datadescriptiondefinition>C",
+					"content": {
+						"referenceClassType": "net.maxon.class.datadescriptiondefinition",
+						"_info": {},
+						"_description": [
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "include"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "net.maxon.node.group"
+										},
+										"net.maxon.description.data.base.generateignoreheader",
+										{
+											"dataType": "bool",
+											"content": true
+										},
+										"net.maxon.description.data.base.include",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "net.maxon.node.group"
+										}
+									]
+								}
+							},
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "attribute"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "geometryin"
+										}
+									]
+								}
+							},
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "attribute"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "inport@BREhG07jBRiprE_98bIuBM"
+										}
+									]
+								}
+							},
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "attribute"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "inport@BdymI0nZLRBsT8ailGTwMK"
+										}
+									]
+								}
+							},
+							{
+								"referenceDataType": "net.maxon.interface.datadictionary-C",
+								"_impl": {
+									"_mode": 1,
+									"_keyType": "net.maxon.datatype.internedid",
+									"_fastData": [
+										"net.maxon.description.base.command",
+										{
+											"dataType": "net.maxon.datatype.id",
+											"content": "attribute"
+										},
+										"net.maxon.description.base.identifier",
+										{
+											"dataType": "net.maxon.datatype.internedid",
+											"content": "geometryout"
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				"widgetDataBlackBox",
+				{
+					"dataType": "net.maxon.interface.datadictionary-C",
+					"content": {
+						"referenceDataType": "net.maxon.interface.datadictionary-C",
+						"_impl": {
+							"_mode": 2,
+							"_data": [
+								{
+									"dataType": "net.maxon.datatype.id",
+									"content": "net.maxon.mvp.serializationV2_0.blackbox.node"
+								},
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 2,
+											"_data": [
+												{
+													"dataType": "net.maxon.datatype.id",
+													"content": "net.maxon.mvp.serializationV2_0.data.node"
+												},
+												{
+													"dataType": "((int64,net.maxon.parametrictype.vec<2,float32>),float32)",
+													"content": {
+														"_0": {
+															"_0": -1,
+															"_1": {
+																"x": -386.79998779296877,
+																"y": -64.00001525878906
+															}
+														},
+														"_1": 128.0
+													}
+												}
+											]
+										}
+									}
+								}
+							]
+						}
+					}
+				},
+				"widgetDataBlackBoxOut",
+				{
+					"dataType": "net.maxon.interface.datadictionary-C",
+					"content": {
+						"referenceDataType": "net.maxon.interface.datadictionary-C",
+						"_impl": {
+							"_mode": 2,
+							"_data": [
+								{
+									"dataType": "net.maxon.datatype.id",
+									"content": "net.maxon.mvp.serializationV2_0.blackbox.graph.0"
+								},
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 2,
+											"_data": [
+												{
+													"dataType": "net.maxon.datatype.id",
+													"content": "net.maxon.mvp.serializationV2_0.data.graph"
+												},
+												{
+													"dataType": "(float32,net.maxon.parametrictype.vec<2,float32>)",
+													"content": {
+														"_0": 1.0,
+														"_1": {
+															"x": 207.05328369140626,
+															"y": 271.4000244140625
+														}
+													}
+												}
+											]
+										}
+									}
+								},
+								{
+									"dataType": "net.maxon.datatype.id",
+									"content": "net.maxon.mvp.serializationV2_0.blackbox.graph.1"
+								},
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 2,
+											"_data": [
+												{
+													"dataType": "net.maxon.datatype.id",
+													"content": "net.maxon.mvp.serializationV2_0.data.graph"
+												},
+												{
+													"dataType": "(float32,net.maxon.parametrictype.vec<2,float32>)",
+													"content": {
+														"_0": 1.0,
+														"_1": {
+															"x": 207.05328369140626,
+															"y": 271.4000244140625
+														}
+													}
+												}
+											]
+										}
+									}
+								},
+								{
+									"dataType": "net.maxon.datatype.id",
+									"content": "net.maxon.mvp.widgetclasses.nodegraph-V1.1"
+								},
+								{
+									"dataType": "net.maxon.interface.datadictionary-C",
+									"content": {
+										"referenceDataType": "net.maxon.interface.datadictionary-C",
+										"_impl": {
+											"_mode": 1,
+											"_keyType": "net.maxon.datatype.internedid",
+											"_fastData": [
+												"net.maxon.mvp.widgetdata.position_v3",
+												{
+													"dataType": "net.maxon.parametrictype.vec<2,net.maxon.mvp.datatype.canvasunitvalue>",
+													"content": {
+														"x": {
+															"value": 207.05328369140626,
+															"unit": 0
+														},
+														"y": {
+															"value": 271.4000244140625,
+															"unit": 0
+														}
+													}
+												},
+												"net.maxon.mvp.widgetdata.scale_v2",
+												{
+													"dataType": "net.maxon.parametrictype.vec<2,float64>",
+													"content": {
+														"x": 1.0,
+														"y": 1.0
+													}
+												}
+											]
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+	}
+}

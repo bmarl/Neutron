@@ -85,6 +85,76 @@
 				]
 			},
 			{
+				"_0": "de.bonkers.neutron.asset.geo.disconnect",
+				"_1": "c427847b0d8b7c5ba03007c61df366f592850ab73d6c9fb89538056986a519cd"
+			},
+			{
+				"dataType": "net.maxon.datatype.asset.dependencystruct",
+				"isArray": true,
+				"content": [
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.neutron.modeling.modifier.base",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Geometry Modifier Group",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.neutron.modeling.delete",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Delete",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.neutron.modeling.selection.transferselection",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Transfer Selection",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.neutron.modeling.selection.invertselection",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Invert Selection",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.neutron.modeling.connect",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Connect",
+						"updatePolicy": 2
+					}
+				]
+			},
+			{
 				"_0": "de.bonkers.neutron.asset.geo.edgestospline",
 				"_1": "6e54e10cb877dc87ec9bf0b9c7653aa77d014cb4f818f0111345c3210efbdf5e"
 			},

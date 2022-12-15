@@ -1,0 +1,69 @@
+﻿{
+	"identification": "net.maxon.asset.metadata",
+	"content": {
+		"dataType": "net.maxon.datatype.asset.dependencystruct",
+		"isArray": true,
+		"content": [
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.neutron.modeling.modifier.base",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Geometry Modifier Group",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.neutron.modeling.delete",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Delete",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.neutron.modeling.selection.transferselection",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Transfer Selection",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.neutron.modeling.selection.invertselection",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Invert Selection",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.neutron.modeling.connect",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Connect",
+				"updatePolicy": 2
+			}
+		]
+	}
+}

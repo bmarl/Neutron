@@ -11,6 +11,14 @@
 				"content": "net.maxon.nodecategory.math"
 			},
 			{
+				"_0": "de.bonkers.neutron.asset.geo.disconnect",
+				"_1": "c427847b0d8b7c5ba03007c61df366f592850ab73d6c9fb89538056986a519cd"
+			},
+			{
+				"dataType": "net.maxon.datatype.id",
+				"content": "net.maxon.neutron.category.geometrymodifier"
+			},
+			{
 				"_0": "de.bonkers.neutron.asset.geo.edgestospline",
 				"_1": "6e54e10cb877dc87ec9bf0b9c7653aa77d014cb4f818f0111345c3210efbdf5e"
 			},
