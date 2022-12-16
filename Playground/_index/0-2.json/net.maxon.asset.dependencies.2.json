@@ -1,0 +1,467 @@
+﻿{
+	"identification": "net.maxon.asset.compactedmetadata",
+	"content": {
+		"data": [
+			{
+				"_0": "de.bonkers.neutron.asset.3dnoise",
+				"_1": "cdc107d27146cb51a3ce923dc72a532dc83e15c50da80c7dad98daa5c54525c1"
+			},
+			{
+				"dataType": "net.maxon.datatype.asset.dependencystruct",
+				"isArray": true,
+				"content": [
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.node.group",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Group",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.node.noise",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Sample Noise",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.node.maprange",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Range Mapper",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.pattern.node.conversion.composevector3",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Compose Vector3D",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.node.switch",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Switch",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.node.arithmetic",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Arithmetic",
+						"updatePolicy": 2
+					}
+				]
+			},
+			{
+				"_0": "de.bonkers.neutron.asset.geo.disconnect",
+				"_1": "c427847b0d8b7c5ba03007c61df366f592850ab73d6c9fb89538056986a519cd"
+			},
+			{
+				"dataType": "net.maxon.datatype.asset.dependencystruct",
+				"isArray": true,
+				"content": [
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.neutron.modeling.modifier.base",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Geometry Modifier Group",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.neutron.modeling.delete",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Delete",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.neutron.modeling.selection.transferselection",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Transfer Selection",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.neutron.modeling.selection.invertselection",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Invert Selection",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.neutron.modeling.connect",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Connect",
+						"updatePolicy": 2
+					}
+				]
+			},
+			{
+				"_0": "de.bonkers.neutron.asset.splinify",
+				"_1": "ab41d732c0933920076f741723aa555485e39a1727786f50023e27143005f874"
+			},
+			{
+				"dataType": "net.maxon.datatype.asset.dependencystruct",
+				"isArray": true,
+				"content": [
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.neutron.geometry.get",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Geometry Property Get",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.node.array.readvalueatindex",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Get Element",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.neutron.group.primitive.spline.base",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Spline Primitive Group",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.neutron.geometry.pointinfo",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Points Info",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.node.container",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Assemble Collection",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.node.normalize",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Normalize",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.node.arithmetic",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Arithmetic",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.node.decomposecontainer",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Decompose Container",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.neutron.node.range",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Range",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.node.switch",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Switch",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.node.array.getcount",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Get Count",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.neutron.geometry.set",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Geometry Property Set",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.neutron.node.index",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Index Iterator",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.neutron.geometry.spline.assembler",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Assemble Spline",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.node.cross",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Cross Product",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.neutron.modeling.selection.toarray",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Selection to Indexes",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.node.array.buildfromsinglevalue",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Fill Array",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.node.composecontainer",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Compose Container",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.neutron.geometry.polygoninfo",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Polygons Info",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.neutron.modeling.selection.active",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Select",
+						"updatePolicy": 2
+					}
+				]
+			},
+			{
+				"_0": "de.bonkers.neutron.asset.velocityconvert",
+				"_1": "543373f3ad52431a1e0f216de60e2ca87874b49dffea8424abc310ffd7a57558"
+			},
+			{
+				"dataType": "net.maxon.datatype.asset.dependencystruct",
+				"isArray": true,
+				"content": [
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.node.group",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Group",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.node.type",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Value",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.node.arithmetic",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Arithmetic",
+						"updatePolicy": 2
+					},
+					{
+						"assetIdAndVersion": {
+							"_0": "net.maxon.node.normalize",
+							"_1": ""
+						},
+						"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+						"assetCreationDate": {
+							"timestamp": 0
+						},
+						"originalName": "Normalize",
+						"updatePolicy": 2
+					}
+				]
+			}
+		]
+	}
+}

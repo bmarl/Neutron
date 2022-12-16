@@ -1,0 +1,39 @@
+﻿{
+	"identification": "net.maxon.asset.compactedmetadata",
+	"content": {
+		"data": [
+			{
+				"_0": "de.bonkers.neutron.asset.3dnoise",
+				"_1": "cdc107d27146cb51a3ce923dc72a532dc83e15c50da80c7dad98daa5c54525c1"
+			},
+			{
+				"dataType": "net.maxon.datatype.id",
+				"content": "net.maxon.nodecategory.math"
+			},
+			{
+				"_0": "de.bonkers.neutron.asset.geo.disconnect",
+				"_1": "c427847b0d8b7c5ba03007c61df366f592850ab73d6c9fb89538056986a519cd"
+			},
+			{
+				"dataType": "net.maxon.datatype.id",
+				"content": "net.maxon.neutron.category.geometrymodifier"
+			},
+			{
+				"_0": "de.bonkers.neutron.asset.splinify",
+				"_1": "ab41d732c0933920076f741723aa555485e39a1727786f50023e27143005f874"
+			},
+			{
+				"dataType": "net.maxon.datatype.id",
+				"content": "net.maxon.neutron.category.geometry"
+			},
+			{
+				"_0": "de.bonkers.neutron.asset.velocityconvert",
+				"_1": "543373f3ad52431a1e0f216de60e2ca87874b49dffea8424abc310ffd7a57558"
+			},
+			{
+				"dataType": "net.maxon.datatype.id",
+				"content": "net.maxon.nodecategory.conversion"
+			}
+		]
+	}
+}

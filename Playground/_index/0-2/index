@@ -1,0 +1,70 @@
+databaseinfo_database_de.bonkers.neutron.playground
+databaseinfo_database@de.bonkers.neutron.playground
+net.maxon.assettype.database
+	1
+	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+		asset
+		net.maxon.asset.timestamp.version
+de.bonkers.neutron.asset.3dnoise
+de.bonkers.neutron.asset.3dnoise
+net.maxon.node.assettype.nodetemplate
+	1
+	cdc107d27146cb51a3ce923dc72a532dc83e15c50da80c7dad98daa5c54525c1
+		asset.c4dnodes
+		net.maxon.node.bases.meta
+		net.maxon.asset.previewimageurl.meta.png
+		net.maxon.asset.keywords.meta
+		strings_en-US.meta
+		net.maxon.asset.colorcategory.meta
+		net.maxon.asset.dependencies.2.meta
+		net.maxon.asset.timestamp.version
+		net.maxon.asset.versiontag.version
+		net.maxon.node.category.meta
+de.bonkers.neutron.asset.geo.disconnect
+de.bonkers.neutron.asset.geo.disconnect
+net.maxon.node.assettype.nodetemplate
+	1
+	c427847b0d8b7c5ba03007c61df366f592850ab73d6c9fb89538056986a519cd
+		asset.c4dnodes
+		net.maxon.node.bases.meta
+		strings_en-US.meta
+		net.maxon.asset.colorcategory.meta
+		net.maxon.asset.dependencies.2.meta
+		net.maxon.asset.timestamp.version
+		net.maxon.asset.versiontag.version
+		net.maxon.node.category.meta
+de.bonkers.neutron.asset.splinify
+de.bonkers.neutron.asset.splinify
+net.maxon.node.assettype.nodetemplate
+	1
+	ab41d732c0933920076f741723aa555485e39a1727786f50023e27143005f874
+		asset.c4dnodes
+		net.maxon.node.bases.meta
+		net.maxon.asset.previewimageurl.meta.png
+		strings_en-US.meta
+		net.maxon.asset.dependencies.2.meta
+		net.maxon.asset.timestamp.version
+		net.maxon.asset.versiontag.version
+		net.maxon.node.category.meta
+de.bonkers.neutron.asset.velocityconvert
+de.bonkers.neutron.asset.velocityconvert
+net.maxon.node.assettype.nodetemplate
+	1
+	543373f3ad52431a1e0f216de60e2ca87874b49dffea8424abc310ffd7a57558
+		asset.c4dnodes
+		net.maxon.node.bases.meta
+		net.maxon.asset.previewimageurl.meta.png
+		net.maxon.asset.keywords.meta
+		strings_en-US.meta
+		net.maxon.asset.dependencies.2.meta
+		net.maxon.asset.timestamp.version
+		net.maxon.asset.versiontag.version
+		net.maxon.node.category.meta
+keyword_905c45b6b0b0452b89c19a80af3bf52a
+keyword@905c45b6b0b0452b89c19a80af3bf52a
+net.maxon.assettype.keyword
+	1
+	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+		asset
+		net.maxon.asset.timestamp.version
+		strings_en-US.meta

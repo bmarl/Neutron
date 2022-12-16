@@ -1,0 +1,43 @@
+databaseid 38
+databaseinfo_database_de.bonkers.neutron.playground
+	1
+		asset 0
+de.bonkers.neutron.asset.3dnoise
+	1
+		asset.c4dnodes 99455
+		net.maxon.asset.previewimageurl.meta.png 6291
+de.bonkers.neutron.asset.geo.disconnect
+	1
+		asset.c4dnodes 46791
+de.bonkers.neutron.asset.splinify
+	1
+		asset.c4dnodes 258310
+		net.maxon.asset.previewimageurl.meta.png 6291
+de.bonkers.neutron.asset.velocityconvert
+	1
+		asset.c4dnodes 28892
+		net.maxon.asset.previewimageurl.meta.png 6291
+keyword_905c45b6b0b0452b89c19a80af3bf52a
+	1
+		asset 0
+version 2
+_index
+	0-2
+		index 2313
+		net.maxon.asset.colorcategory 526
+		net.maxon.asset.dependencies.2 3073
+		net.maxon.asset.keywords 504
+		net.maxon.asset.timestamp 942
+		net.maxon.asset.versiontag 710
+		net.maxon.node.bases 811
+		net.maxon.node.category 804
+		strings_en-US 2942
+	0-2.json
+		net.maxon.asset.colorcategory.json 612
+		net.maxon.asset.dependencies.2.json 12143
+		net.maxon.asset.keywords.json 688
+		net.maxon.asset.timestamp.json 1723
+		net.maxon.asset.versiontag.json 1011
+		net.maxon.node.bases.json 1495
+		net.maxon.node.category.json 1104
+		strings_en-US.json 17795
