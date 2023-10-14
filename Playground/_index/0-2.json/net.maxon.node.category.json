@@ -19,6 +19,14 @@
 				"content": "net.maxon.neutron.category.geometrymodifier"
 			},
 			{
+				"_0": "de.bonkers.neutron.asset.geo.vertexmapfromdistance",
+				"_1": "edb71f3be1819adafb9edde43690e02871187b60a01a69033b8f26e711cb66e1"
+			},
+			{
+				"dataType": "net.maxon.datatype.id",
+				"content": "net.maxon.neutron.category.geometrymodifier"
+			},
+			{
 				"_0": "de.bonkers.neutron.asset.splinify",
 				"_1": "ab41d732c0933920076f741723aa555485e39a1727786f50023e27143005f874"
 			},

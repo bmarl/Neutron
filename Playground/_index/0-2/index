@@ -11,8 +11,8 @@ net.maxon.node.assettype.nodetemplate
 	1
 	cdc107d27146cb51a3ce923dc72a532dc83e15c50da80c7dad98daa5c54525c1
 		asset.c4dnodes
-		net.maxon.node.bases.meta
 		net.maxon.asset.previewimageurl.meta.png
+		net.maxon.node.bases.meta
 		net.maxon.asset.keywords.meta
 		strings_en-US.meta
 		net.maxon.asset.colorcategory.meta
@@ -33,18 +33,40 @@ net.maxon.node.assettype.nodetemplate
 		net.maxon.asset.timestamp.version
 		net.maxon.asset.versiontag.version
 		net.maxon.node.category.meta
+de.bonkers.neutron.asset.geo.vertexmapfromdistance
+de.bonkers.neutron.asset.geo.vertexmapfromdistance
+net.maxon.node.assettype.nodetemplate
+	1
+	edb71f3be1819adafb9edde43690e02871187b60a01a69033b8f26e711cb66e1
+		asset.c4dnodes
+		strings_en-US.meta
+		net.maxon.asset.dependencies.2.meta
+		strings_zh-CN.meta
+		net.maxon.node.category.meta
+		strings_de-DE.meta
+		strings_ar-AR.meta
+		strings_it-IT.meta
+		strings_pl-PL.meta
+		strings_fr-FR.meta
+		strings_es-ES.meta
+		net.maxon.node.bases.meta
+		strings_ko-KR.meta
+		strings_cs-CZ.meta
+		net.maxon.asset.timestamp.version
+		net.maxon.asset.versiontag.version
+		strings_ja-JP.meta
 de.bonkers.neutron.asset.splinify
 de.bonkers.neutron.asset.splinify
 net.maxon.node.assettype.nodetemplate
 	1
 	ab41d732c0933920076f741723aa555485e39a1727786f50023e27143005f874
 		asset.c4dnodes
-		net.maxon.node.bases.meta
 		net.maxon.asset.previewimageurl.meta.png
+		net.maxon.node.bases.meta
 		strings_en-US.meta
 		net.maxon.asset.dependencies.2.meta
-		net.maxon.asset.timestamp.version
 		net.maxon.asset.versiontag.version
+		net.maxon.asset.timestamp.version
 		net.maxon.node.category.meta
 de.bonkers.neutron.asset.velocityconvert
 de.bonkers.neutron.asset.velocityconvert
@@ -52,8 +74,8 @@ net.maxon.node.assettype.nodetemplate
 	1
 	543373f3ad52431a1e0f216de60e2ca87874b49dffea8424abc310ffd7a57558
 		asset.c4dnodes
-		net.maxon.node.bases.meta
 		net.maxon.asset.previewimageurl.meta.png
+		net.maxon.node.bases.meta
 		net.maxon.asset.keywords.meta
 		strings_en-US.meta
 		net.maxon.asset.dependencies.2.meta

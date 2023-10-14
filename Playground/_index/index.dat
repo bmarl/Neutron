@@ -9,6 +9,9 @@ de.bonkers.neutron.asset.3dnoise
 de.bonkers.neutron.asset.geo.disconnect
 	1
 		asset.c4dnodes 46791
+de.bonkers.neutron.asset.geo.vertexmapfromdistance
+	1
+		asset.c4dnodes 210141
 de.bonkers.neutron.asset.splinify
 	1
 		asset.c4dnodes 258310
@@ -23,21 +26,41 @@ keyword_905c45b6b0b0452b89c19a80af3bf52a
 version 2
 _index
 	0-2
-		index 2313
+		index 2940
 		net.maxon.asset.colorcategory 526
-		net.maxon.asset.dependencies.2 3073
+		net.maxon.asset.dependencies.2 4096
 		net.maxon.asset.keywords 504
-		net.maxon.asset.timestamp 942
-		net.maxon.asset.versiontag 710
-		net.maxon.node.bases 811
-		net.maxon.node.category 804
-		strings_en-US 2942
+		net.maxon.asset.timestamp 1071
+		net.maxon.asset.versiontag 838
+		net.maxon.node.bases 1025
+		net.maxon.node.category 927
+		strings_ar-AR 1849
+		strings_cs-CZ 1849
+		strings_de-DE 1849
+		strings_en-US 4326
+		strings_es-ES 1849
+		strings_fr-FR 1849
+		strings_it-IT 1849
+		strings_ja-JP 1849
+		strings_ko-KR 1849
+		strings_pl-PL 1849
+		strings_zh-CN 1849
 	0-2.json
 		net.maxon.asset.colorcategory.json 612
-		net.maxon.asset.dependencies.2.json 12143
+		net.maxon.asset.dependencies.2.json 18126
 		net.maxon.asset.keywords.json 688
-		net.maxon.asset.timestamp.json 1723
-		net.maxon.asset.versiontag.json 1011
-		net.maxon.node.bases.json 1495
-		net.maxon.node.category.json 1104
-		strings_en-US.json 17795
+		net.maxon.asset.timestamp.json 2004
+		net.maxon.asset.versiontag.json 1253
+		net.maxon.node.bases.json 1953
+		net.maxon.node.category.json 1377
+		strings_ar-AR.json 9060
+		strings_cs-CZ.json 9060
+		strings_de-DE.json 9060
+		strings_en-US.json 31675
+		strings_es-ES.json 9060
+		strings_fr-FR.json 9060
+		strings_it-IT.json 9060
+		strings_ja-JP.json 9060
+		strings_ko-KR.json 9060
+		strings_pl-PL.json 9060
+		strings_zh-CN.json 9060

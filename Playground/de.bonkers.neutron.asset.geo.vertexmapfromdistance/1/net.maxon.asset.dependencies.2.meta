@@ -1,0 +1,225 @@
+﻿{
+	"identification": "net.maxon.asset.metadata",
+	"content": {
+		"dataType": "net.maxon.datatype.asset.dependencystruct",
+		"isArray": true,
+		"content": [
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.neutron.modeling.modifierwithmatrix.base",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "#$02Nodes Modifier",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.transformvector",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Transform Vector",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.distance",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Distance",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.neutron.geometry.set",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Geometry Property Set",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.compare",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Compare",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.matrixtovectors",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Matrix to Vectors",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.switch",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Switch",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.maprange",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Range Mapper",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.array.readvalueatindex",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Get Element",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.neutron.geometry.getvertexselectiondata",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Points Info",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.neutron.geometry.get",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Geometry Property Get",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.array.writevalueatindex",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Set Element",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.nbo.node.collision.closestpointonsurface",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Closest Point On Surface",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.array.getcount",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Get Count",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.array.buildfromsinglevalue",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Fill Array",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.containeriteration",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Iterate Collection",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.transformmatrix",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Transform Matrices",
+				"updatePolicy": 2
+			},
+			{
+				"assetIdAndVersion": {
+					"_0": "net.maxon.node.inversematrix",
+					"_1": ""
+				},
+				"assetTypeId": "net.maxon.node.assettype.nodetemplate",
+				"assetCreationDate": {
+					"timestamp": 0
+				},
+				"originalName": "Inverse Matrix",
+				"updatePolicy": 2
+			}
+		]
+	}
+}

@@ -1,0 +1,433 @@
+﻿{
+	"identification": "net.maxon.asset.metadata",
+	"content": {
+		"dataType": "net.maxon.interface.datadictionary-C",
+		"content": {
+			"referenceDataType": "net.maxon.interface.datadictionary-C",
+			"_impl": {
+				"_mode": 2,
+				"_data": [
+					{
+						"dataType": "net.maxon.datatype.internedid",
+						"content": "net.maxon.description.base.dbversion"
+					},
+					{
+						"dataType": "int64",
+						"content": 6
+					},
+					{
+						"dataType": "net.maxon.interface.cstring-C",
+						"content": ""
+					},
+					{
+						"dataType": "<net.maxon.interface.datadescriptiondefinition>C",
+						"content": {
+							"referenceClassType": "net.maxon.class.datadescriptiondefinition",
+							"_info": {},
+							"_description": [
+								{
+									"referenceDataType": "net.maxon.interface.datadictionary-C",
+									"_impl": {
+										"_mode": 1,
+										"_keyType": "net.maxon.datatype.internedid",
+										"_fastData": [
+											"net.maxon.description.base.command",
+											{
+												"dataType": "net.maxon.datatype.id",
+												"content": "include"
+											},
+											"net.maxon.description.base.identifier",
+											{
+												"dataType": "net.maxon.datatype.internedid",
+												"content": "net.maxon.neutron.modeling.modifierwithmatrix.base"
+											},
+											"net.maxon.description.data.base.include",
+											{
+												"dataType": "net.maxon.datatype.id",
+												"content": "net.maxon.neutron.modeling.modifierwithmatrix.base"
+											}
+										]
+									}
+								},
+								{
+									"referenceDataType": "net.maxon.interface.datadictionary-C",
+									"_impl": {
+										"_mode": 1,
+										"_keyType": "net.maxon.datatype.internedid",
+										"_fastData": [
+											"net.maxon.description.base.command",
+											{
+												"dataType": "net.maxon.datatype.id",
+												"content": "group"
+											},
+											"net.maxon.description.base.identifier",
+											{
+												"dataType": "net.maxon.datatype.internedid",
+												"content": "net.maxon.node.base.group.inputs"
+											},
+											"net.maxon.description.string.base.translatedstring",
+											{
+												"dataType": "net.maxon.interface.string-C",
+												"content": "Inputs"
+											}
+										]
+									}
+								},
+								{
+									"referenceDataType": "net.maxon.interface.datadictionary-C",
+									"_impl": {
+										"_mode": 1,
+										"_keyType": "net.maxon.datatype.internedid",
+										"_fastData": [
+											"net.maxon.description.base.command",
+											{
+												"dataType": "net.maxon.datatype.id",
+												"content": "group"
+											},
+											"net.maxon.description.base.identifier",
+											{
+												"dataType": "net.maxon.datatype.internedid",
+												"content": "net.maxon.node.base.group.outputs"
+											},
+											"net.maxon.description.string.base.translatedstring",
+											{
+												"dataType": "net.maxon.interface.string-C",
+												"content": "Outputs"
+											}
+										]
+									}
+								},
+								{
+									"referenceDataType": "net.maxon.interface.datadictionary-C",
+									"_impl": {
+										"_mode": 1,
+										"_keyType": "net.maxon.datatype.internedid",
+										"_fastData": [
+											"net.maxon.description.base.command",
+											{
+												"dataType": "net.maxon.datatype.id",
+												"content": "exportedstring"
+											},
+											"net.maxon.description.base.identifier",
+											{
+												"dataType": "net.maxon.datatype.internedid",
+												"content": "net.maxon.object.base.name"
+											},
+											"net.maxon.description.string.base.translatedstring",
+											{
+												"dataType": "net.maxon.interface.string-C",
+												"content": "Vertex Map from Distance"
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					{
+						"dataType": "net.maxon.interface.cstring-C",
+						"content": "<geometryin"
+					},
+					{
+						"dataType": "net.maxon.interface.datadictionary-C",
+						"content": {
+							"referenceDataType": "net.maxon.interface.datadictionary-C",
+							"_impl": {
+								"_mode": 1,
+								"_keyType": "net.maxon.datatype.internedid",
+								"_fastData": [
+									"net.maxon.description.data.base.generateignoreheader",
+									{
+										"dataType": "bool",
+										"content": true
+									},
+									"net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Geometry"
+									}
+								]
+							}
+						}
+					},
+					{
+						"dataType": "net.maxon.interface.cstring-C",
+						"content": "<in@CL8KORW6PF1lHhYGA7Oxfg"
+					},
+					{
+						"dataType": "net.maxon.interface.datadictionary-C",
+						"content": {
+							"referenceDataType": "net.maxon.interface.datadictionary-C",
+							"_impl": {
+								"_mode": 1,
+								"_keyType": "net.maxon.datatype.internedid",
+								"_fastData": [
+									"net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Min Distance"
+									}
+								]
+							}
+						}
+					},
+					{
+						"dataType": "net.maxon.interface.cstring-C",
+						"content": "<in@Hq9FBgcqHl$pbemSMxjr3l"
+					},
+					{
+						"dataType": "net.maxon.interface.datadictionary-C",
+						"content": {
+							"referenceDataType": "net.maxon.interface.datadictionary-C",
+							"_impl": {
+								"_mode": 1,
+								"_keyType": "net.maxon.datatype.internedid",
+								"_fastData": [
+									"net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Vertex Map Name"
+									}
+								]
+							}
+						}
+					},
+					{
+						"dataType": "net.maxon.interface.cstring-C",
+						"content": "<in@JvKVPJ_PHlilDnNaX7Abtj"
+					},
+					{
+						"dataType": "net.maxon.interface.datadictionary-C",
+						"content": {
+							"referenceDataType": "net.maxon.interface.datadictionary-C",
+							"_impl": {
+								"_mode": 1,
+								"_keyType": "net.maxon.datatype.internedid",
+								"_fastData": [
+									"net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Distance Mode"
+									},
+									"{#enum#_0}net.maxon.description.base.command",
+									{
+										"dataType": "net.maxon.datatype.id",
+										"content": "string"
+									},
+									"{#enum#_0}net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Position"
+									},
+									"{#enum#_1}net.maxon.description.base.command",
+									{
+										"dataType": "net.maxon.datatype.id",
+										"content": "string"
+									},
+									"{#enum#_1}net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Modifier"
+									},
+									"{#enum#_2}net.maxon.description.base.command",
+									{
+										"dataType": "net.maxon.datatype.id",
+										"content": "string"
+									},
+									"{#enum#_2}net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Geometry"
+									}
+								]
+							}
+						}
+					},
+					{
+						"dataType": "net.maxon.interface.cstring-C",
+						"content": "<in@PC2haJBYB9sgKmEfmmNuNl"
+					},
+					{
+						"dataType": "net.maxon.interface.datadictionary-C",
+						"content": {
+							"referenceDataType": "net.maxon.interface.datadictionary-C",
+							"_impl": {
+								"_mode": 1,
+								"_keyType": "net.maxon.datatype.internedid",
+								"_fastData": [
+									"net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Max Distance"
+									}
+								]
+							}
+						}
+					},
+					{
+						"dataType": "net.maxon.interface.cstring-C",
+						"content": "<in@SmLBrVUhAlUh6elPcTzyai"
+					},
+					{
+						"dataType": "net.maxon.interface.datadictionary-C",
+						"content": {
+							"referenceDataType": "net.maxon.interface.datadictionary-C",
+							"_impl": {
+								"_mode": 1,
+								"_keyType": "net.maxon.datatype.internedid",
+								"_fastData": [
+									"net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Default"
+									}
+								]
+							}
+						}
+					},
+					{
+						"dataType": "net.maxon.interface.cstring-C",
+						"content": "<in@ZqJaQjJjI1rhHj8X$yuCui"
+					},
+					{
+						"dataType": "net.maxon.interface.datadictionary-C",
+						"content": {
+							"referenceDataType": "net.maxon.interface.datadictionary-C",
+							"_impl": {
+								"_mode": 1,
+								"_keyType": "net.maxon.datatype.internedid",
+								"_fastData": [
+									"net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Position"
+									}
+								]
+							}
+						}
+					},
+					{
+						"dataType": "net.maxon.interface.cstring-C",
+						"content": "<in@e3eFJzNGKRQv9a8fHT4opl"
+					},
+					{
+						"dataType": "net.maxon.interface.datadictionary-C",
+						"content": {
+							"referenceDataType": "net.maxon.interface.datadictionary-C",
+							"_impl": {
+								"_mode": 1,
+								"_keyType": "net.maxon.datatype.internedid",
+								"_fastData": [
+									"net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Object"
+									}
+								]
+							}
+						}
+					},
+					{
+						"dataType": "net.maxon.interface.cstring-C",
+						"content": "<in@fVtBrgH5P16qCHF7mViFhl"
+					},
+					{
+						"dataType": "net.maxon.interface.datadictionary-C",
+						"content": {
+							"referenceDataType": "net.maxon.interface.datadictionary-C",
+							"_impl": {
+								"_mode": 1,
+								"_keyType": "net.maxon.datatype.internedid",
+								"_fastData": [
+									"net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Selection String"
+									}
+								]
+							}
+						}
+					},
+					{
+						"dataType": "net.maxon.interface.cstring-C",
+						"content": "<modifiermatrix"
+					},
+					{
+						"dataType": "net.maxon.interface.datadictionary-C",
+						"content": {
+							"referenceDataType": "net.maxon.interface.datadictionary-C",
+							"_impl": {
+								"_mode": 1,
+								"_keyType": "net.maxon.datatype.internedid",
+								"_fastData": [
+									"net.maxon.description.data.base.generateignoreheader",
+									{
+										"dataType": "bool",
+										"content": true
+									},
+									"net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Local Modifier Matrix"
+									}
+								]
+							}
+						}
+					},
+					{
+						"dataType": "net.maxon.interface.cstring-C",
+						"content": "<objectmatrix"
+					},
+					{
+						"dataType": "net.maxon.interface.datadictionary-C",
+						"content": {
+							"referenceDataType": "net.maxon.interface.datadictionary-C",
+							"_impl": {
+								"_mode": 1,
+								"_keyType": "net.maxon.datatype.internedid",
+								"_fastData": [
+									"net.maxon.description.data.base.generateignoreheader",
+									{
+										"dataType": "bool",
+										"content": true
+									},
+									"net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Global Object Matrix"
+									}
+								]
+							}
+						}
+					},
+					{
+						"dataType": "net.maxon.interface.cstring-C",
+						"content": ">geometryout"
+					},
+					{
+						"dataType": "net.maxon.interface.datadictionary-C",
+						"content": {
+							"referenceDataType": "net.maxon.interface.datadictionary-C",
+							"_impl": {
+								"_mode": 1,
+								"_keyType": "net.maxon.datatype.internedid",
+								"_fastData": [
+									"net.maxon.description.data.base.generateignoreheader",
+									{
+										"dataType": "bool",
+										"content": true
+									},
+									"net.maxon.description.string.base.translatedstring",
+									{
+										"dataType": "net.maxon.interface.string-C",
+										"content": "Geometry"
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}
